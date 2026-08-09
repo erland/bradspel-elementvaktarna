@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="794" height="1123" viewBox="0 0 794 1123">
+<rect width="794" height="1123" fill="#fff"/>
+<text x="397" y="75" text-anchor="middle" font-family="DejaVu Sans Condensed" font-size="30" font-weight="700" fill="#245b46">KRISTALLMARKÖRER</text>
+<polygon points="180,185 252,260 228,380 132,380 108,260" fill="#D94A32" stroke="#17211c" stroke-width="7"/>
+<path d="M180,185 L132,380 M180,185 L228,380 M108,260 L252,260" stroke="#fff" stroke-width="4" opacity=".75"/>
+<text x="180" y="435" text-anchor="middle" font-family="DejaVu Sans" font-size="22" font-weight="700" fill="#17211c">ELD</text>
+<polygon points="610,185 682,260 658,380 562,380 538,260" fill="#3B86D9" stroke="#17211c" stroke-width="7"/>
+<path d="M610,185 L562,380 M610,185 L658,380 M538,260 L682,260" stroke="#fff" stroke-width="4" opacity=".75"/>
+<text x="610" y="435" text-anchor="middle" font-family="DejaVu Sans" font-size="22" font-weight="700" fill="#17211c">VATTEN</text>
+<polygon points="180,615 252,690 228,810 132,810 108,690" fill="#65BFD3" stroke="#17211c" stroke-width="7"/>
+<path d="M180,615 L132,810 M180,615 L228,810 M108,690 L252,690" stroke="#fff" stroke-width="4" opacity=".75"/>
+<text x="180" y="865" text-anchor="middle" font-family="DejaVu Sans" font-size="22" font-weight="700" fill="#17211c">VIND</text>
+<polygon points="610,615 682,690 658,810 562,810 538,690" fill="#6D9B45" stroke="#17211c" stroke-width="7"/>
+<path d="M610,615 L562,810 M610,615 L658,810 M538,690 L682,690" stroke="#fff" stroke-width="4" opacity=".75"/>
+<text x="610" y="865" text-anchor="middle" font-family="DejaVu Sans" font-size="22" font-weight="700" fill="#17211c">JORD</text>
+</svg>

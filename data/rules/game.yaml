@@ -1,0 +1,64 @@
+game:
+  id: elementvaktarna
+  version: '0.46'
+  players:
+    min: 2
+    max: 4
+    heroes_always_used: 4
+    control_by_player_count:
+      '2':
+        distribution:
+        - 2
+        - 2
+        text: Varje spelare styr två hjältar.
+      '3':
+        distribution:
+        - 2
+        - 1
+        - 1
+        text: En spelare styr två hjältar och de andra styr en hjälte var.
+      '4':
+        distribution:
+        - 1
+        - 1
+        - 1
+        - 1
+        text: Varje spelare styr en hjälte.
+    hero_order:
+    - fire_guardian
+    - water_guardian
+    - wind_guardian
+    - earth_guardian
+    separate_state_per_hero:
+    - location
+    - energy
+    - shields
+    shadow_card_timing: after_each_hero_turn
+  recommended_age: 7-9
+  target_minutes: 25
+  mode: cooperative
+  win_condition:
+    requires_crystals: 4
+    requires_shadow_master_defeated: true
+  starting_energy: 3
+  max_energy: 5
+  die: d6
+  design_goals:
+    target_minutes: 25
+    target_rounds:
+      min: 5
+      max: 8
+    target_win_rate:
+      min: 0.45
+      max: 0.7
+    target_explore_share:
+      min: 0.2
+      max: 0.45
+  light:
+    normal_start: 8
+    hard_start: 7
+    very_hard_start: 6
+    end_state: extinguished
+    end_label: Släckt
+    lose_when: light_is_extinguished
+    effect_text: Förlora 1 Ljus

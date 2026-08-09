@@ -1,0 +1,103 @@
+{
+  "release": "v0.57",
+  "status": "Release Candidate 1",
+  "changes": [
+    "Släckt-läget är ett fristående stenaltare med släckt kristall."
+  ],
+  "board_variants": [
+    "print/pdf/board-a4.pdf",
+    "print/pdf/board-a4-ink-friendly.pdf"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "size": 1364,
+      "sha256": "3606541d700d4b3a689a605ee346c1bea4e86f72b87905a568fe88a81f822c7a"
+    },
+    {
+      "path": "docs/FAQ.md",
+      "size": 2848,
+      "sha256": "9035dbeaea45d1d90a12d5c98a23a95e57657a520d9135a203107d4cd652dbb7"
+    },
+    {
+      "path": "docs/QUICKSTART.md",
+      "size": 1291,
+      "sha256": "f1bb11fa6c85da30aca6b3dfa5de5fbc325a86b7bd2709958a4ea41f7d890045"
+    },
+    {
+      "path": "docs/REFERENCE_CARD_A6.md",
+      "size": 1480,
+      "sha256": "cbf782000fdb87ba62b71a4e794c4c8fad1e07c1f631b95d33c438d3332cfea0"
+    },
+    {
+      "path": "docs/RULEBOOK.md",
+      "size": 5418,
+      "sha256": "b69e2372f714774b76387cfb84dab02b69ff72904a9d58a76e710da7aadbfd0e"
+    },
+    {
+      "path": "docs/faq.pdf",
+      "size": 16941,
+      "sha256": "94d2fc610e3b405a88b407e87d19e4aa1c9bd21164776d938990f2aa08c7b9c9"
+    },
+    {
+      "path": "docs/quickstart.pdf",
+      "size": 14856,
+      "sha256": "b3724d6a4d470820959a1e86c22fd869633bf0845c9c22ac08072d03d9ab62b3"
+    },
+    {
+      "path": "docs/rulebook.pdf",
+      "size": 21411,
+      "sha256": "8ba28d2a9d61bd98b2fbc030f48d4698ded21d4df053c30be7c811fb4b32bef3"
+    },
+    {
+      "path": "print/pdf/adventure-cards-a4.pdf",
+      "size": 47462,
+      "sha256": "97bd6a3735c0bbc477acde4850befc571fe28fd72d95eea662653c509074550e"
+    },
+    {
+      "path": "print/pdf/board-a4-ink-friendly.pdf",
+      "size": 4490872,
+      "sha256": "4c6f32408ea6b560e12a4c3850c08ff3d1e43a2d72e0325749f1584da5782526"
+    },
+    {
+      "path": "print/pdf/board-a4.pdf",
+      "size": 4178845,
+      "sha256": "a47b3b391f34c982db551cea9b67ceeff641691b55fae407f603b6d7716f497a"
+    },
+    {
+      "path": "print/pdf/crystal-tokens-a4.pdf",
+      "size": 10681,
+      "sha256": "2162dae2ba57d3e76e5d376f69c6d382a69763f6af8a3adbe451ff9d48d1a9b5"
+    },
+    {
+      "path": "print/pdf/hero-cards-a4.pdf",
+      "size": 14737115,
+      "sha256": "d5ae817d50e13115d4530adc8dcaf14d5d9ecb2522195d860e652e2d017abd07"
+    },
+    {
+      "path": "print/pdf/player-reference-a6.pdf",
+      "size": 25827,
+      "sha256": "c732d00ed7bdde97f200dad1f66099537ed8621ff2d96227f1d7995e1bc89803"
+    },
+    {
+      "path": "print/pdf/shadow-cards-a4.pdf",
+      "size": 24931,
+      "sha256": "9f821121ff4d8d532c04aaa7f160a68b7e628e4c3a35a8f72d988c967c88dc3f"
+    },
+    {
+      "path": "print/pdf/shield-tokens-a4.pdf",
+      "size": 10261,
+      "sha256": "0b2e3b6d24c7af6c8ad75be4550c0cb5c92f6d1734d15273a7b20c6c5977fcb2"
+    },
+    {
+      "path": "print/svg/board-a4-ink-friendly.svg",
+      "size": 4734857,
+      "sha256": "473fc6e4330653cb439a8bc83c69d37d8908d3d4b6337e5b05d080431a3eb470"
+    },
+    {
+      "path": "print/svg/board-a4.svg",
+      "size": 4335601,
+      "sha256": "51fe79f30536e66e71826d4a54b2c14fbb11828547d1bf819981692ad0a1b44e"
+    }
+  ]
+}

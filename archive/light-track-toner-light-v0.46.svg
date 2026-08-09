@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="205" height="700" viewBox="0 0 205 700">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf4"/>
+      <stop offset="0.55" stop-color="#f7f1df"/>
+      <stop offset="1" stop-color="#e8e0ec"/>
+    </linearGradient>
+    <linearGradient id="crystal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.45" stop-color="#dff7ff"/>
+      <stop offset="1" stop-color="#9bc9d8"/>
+    </linearGradient>
+  </defs>
+  <rect x="7" y="7" width="191" height="686" rx="24" fill="url(#panel)" stroke="#6f5a38" stroke-width="4"/>
+  <rect x="14" y="14" width="177" height="672" rx="19" fill="none" stroke="#c9a85d" stroke-width="2"/>
+  <path d="M102 8 L122 34 L102 62 L82 34 Z" fill="url(#crystal)" stroke="#607b88" stroke-width="2"/>
+  <path d="M18 82 Q102 55 187 82" fill="none" stroke="#c9a85d" stroke-width="2"/>
+  <path d="M21 620 Q102 650 184 620" fill="none" stroke="#8d7893" stroke-width="2"/>
+  <g opacity=".35" fill="none" stroke="#8d7893" stroke-width="2">
+    <path d="M18 684 C35 642 29 602 55 568"/>
+    <path d="M187 684 C170 642 176 602 150 568"/>
+    <path d="M25 664 l18 -12 l-7 19"/>
+    <path d="M180 664 l-18 -12 l7 19"/>
+  </g>
+  <g fill="#ffffff" stroke="#b9aa8a" stroke-width="1.5">
+    <rect x="34" y="83" width="137" height="53" rx="12"/>
+    <rect x="34" y="147" width="137" height="53" rx="12"/>
+    <rect x="34" y="211" width="137" height="53" rx="12"/>
+    <rect x="34" y="275" width="137" height="53" rx="12"/>
+    <rect x="34" y="339" width="137" height="53" rx="12"/>
+    <rect x="34" y="403" width="137" height="53" rx="12"/>
+    <rect x="34" y="467" width="137" height="53" rx="12"/>
+    <rect x="34" y="531" width="137" height="53" rx="12"/>
+  </g>
+  <rect x="30" y="595" width="145" height="70" rx="16" fill="#eee8f1" stroke="#725f78" stroke-width="2"/>
+  <circle cx="102" cy="629" r="18" fill="#ffffff" stroke="#725f78" stroke-width="2"/>
+  <path d="M102 611 A18 18 0 0 0 102 647 A10 10 0 0 1 102 611" fill="#8a6b93" opacity=".7"/>
+</svg>

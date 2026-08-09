@@ -1,0 +1,4275 @@
+[
+  {
+    "strategy": "aggressive",
+    "difficulty": "normal",
+    "result": {
+      "win": 1,
+      "turns": 14,
+      "rounds": 3.5,
+      "light_end": 4,
+      "crystals": 4,
+      "shadow_health_end": 0,
+      "boss_phase_turns": 9,
+      "zero_energy_events": 0,
+      "explore_share": 0.14285714285714285,
+      "fight_share": 0.6428571428571429,
+      "build_share": 0.0,
+      "train_share": 0.0,
+      "action_counts": {
+        "fight_guardian": 5,
+        "explore": 2,
+        "move_only": 3,
+        "fight_shadow_master": 4,
+        "shield_attack_bonus": 2
+      },
+      "card_counts": {
+        "shadow_grip": 2,
+        "shadow_ambush": 3,
+        "shadow_fog": 1,
+        "adventure_help": 1,
+        "shadow_block": 2,
+        "shadow_rises": 4,
+        "shadow_calm": 1,
+        "adventure_passage": 1
+      },
+      "crystal_turn": {
+        "fire_crystal": 1,
+        "water_crystal": 2,
+        "wind_crystal": 5,
+        "earth_crystal": 6
+      },
+      "crystal_order": [
+        "fire_crystal",
+        "water_crystal",
+        "wind_crystal",
+        "earth_crystal"
+      ],
+      "hero_crystal_fights": {
+        "fire_guardian": 2,
+        "water_guardian": 2,
+        "wind_guardian": 1,
+        "earth_guardian": 0
+      },
+      "hero_boss_fights": {
+        "fire_guardian": 1,
+        "water_guardian": 1,
+        "wind_guardian": 1,
+        "earth_guardian": 1
+      },
+      "hero_energy_lost": {
+        "fire_guardian": 1,
+        "water_guardian": 1,
+        "wind_guardian": 2,
+        "earth_guardian": 2
+      },
+      "hero_shields_used": {
+        "fire_guardian": 1,
+        "water_guardian": 0,
+        "wind_guardian": 1,
+        "earth_guardian": 0
+      },
+      "hero_ability_uses": {
+        "fire_guardian": 3,
+        "wind_guardian": 2
+      },
+      "location_power_uses": {
+        "water": 1,
+        "wind": 1
+      },
+      "crystal_reward_uses": {
+        "fire_crystal": 1,
+        "water_crystal": 1,
+        "wind_crystal": 1,
+        "earth_crystal": 1
+      },
+      "light_loss_sources": {
+        "shadow_rises": 4
+      },
+      "log": [
+        {
+          "turn": 1,
+          "hero": "fire_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "training",
+            3,
+            0,
+            8,
+            0,
+            4
+          ],
+          "after": [
+            "fire",
+            3,
+            0,
+            8,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 2,
+          "hero": "water_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "training",
+            3,
+            0,
+            8,
+            1,
+            4
+          ],
+          "after": [
+            "water",
+            4,
+            0,
+            8,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 3,
+          "hero": "wind_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "training",
+            4,
+            0,
+            8,
+            2,
+            4
+          ],
+          "after": [
+            "wind",
+            3,
+            0,
+            8,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 4,
+          "hero": "earth_guardian",
+          "action": "explore",
+          "before": [
+            "training",
+            4,
+            0,
+            8,
+            2,
+            4
+          ],
+          "after": [
+            "water",
+            4,
+            0,
+            8,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 5,
+          "hero": "fire_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "fire",
+            4,
+            0,
+            8,
+            2,
+            4
+          ],
+          "after": [
+            "wind",
+            4,
+            0,
+            7,
+            3,
+            4
+          ]
+        },
+        {
+          "turn": 6,
+          "hero": "water_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "water",
+            5,
+            0,
+            7,
+            3,
+            4
+          ],
+          "after": [
+            "earth",
+            5,
+            0,
+            7,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 7,
+          "hero": "wind_guardian",
+          "action": "move_only",
+          "before": [
+            "workshop",
+            3,
+            1,
+            7,
+            4,
+            4
+          ],
+          "after": [
+            "workshop",
+            3,
+            1,
+            6,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 8,
+          "hero": "earth_guardian",
+          "action": "explore",
+          "before": [
+            "water",
+            4,
+            0,
+            6,
+            4,
+            4
+          ],
+          "after": [
+            "workshop",
+            3,
+            0,
+            6,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 9,
+          "hero": "fire_guardian",
+          "action": "move_only",
+          "before": [
+            "wind",
+            4,
+            1,
+            6,
+            4,
+            4
+          ],
+          "after": [
+            "workshop",
+            4,
+            1,
+            5,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 10,
+          "hero": "water_guardian",
+          "action": "move_only",
+          "before": [
+            "earth",
+            5,
+            0,
+            5,
+            4,
+            4
+          ],
+          "after": [
+            "workshop",
+            5,
+            0,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 11,
+          "hero": "wind_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "workshop",
+            3,
+            1,
+            4,
+            4,
+            4
+          ],
+          "after": [
+            "temple",
+            2,
+            0,
+            4,
+            4,
+            3
+          ]
+        },
+        {
+          "turn": 12,
+          "hero": "earth_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "workshop",
+            3,
+            0,
+            4,
+            4,
+            3
+          ],
+          "after": [
+            "temple",
+            2,
+            0,
+            4,
+            4,
+            2
+          ]
+        },
+        {
+          "turn": 13,
+          "hero": "fire_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "workshop",
+            4,
+            1,
+            4,
+            4,
+            2
+          ],
+          "after": [
+            "temple",
+            4,
+            0,
+            4,
+            4,
+            1
+          ]
+        },
+        {
+          "turn": 14,
+          "hero": "water_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "workshop",
+            5,
+            0,
+            4,
+            4,
+            1
+          ],
+          "after": [
+            "temple",
+            5,
+            0,
+            4,
+            4,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "strategy": "aggressive",
+    "difficulty": "hard",
+    "result": {
+      "win": 0,
+      "turns": 18,
+      "rounds": 4.5,
+      "light_end": 0,
+      "crystals": 4,
+      "shadow_health_end": 1,
+      "boss_phase_turns": 8,
+      "zero_energy_events": 0,
+      "explore_share": 0.16666666666666666,
+      "fight_share": 0.7222222222222222,
+      "build_share": 0.0,
+      "train_share": 0.0,
+      "action_counts": {
+        "fight_guardian": 8,
+        "explore": 3,
+        "shield_attack_bonus": 3,
+        "move_only": 2,
+        "fight_shadow_master": 5
+      },
+      "card_counts": {
+        "shadow_grip": 2,
+        "shadow_fog": 2,
+        "shadow_rises": 5,
+        "adventure_weak_point": 1,
+        "shadow_block": 2,
+        "shadow_calm": 2,
+        "adventure_old_map": 1,
+        "shadow_ambush": 4,
+        "adventure_help": 1
+      },
+      "crystal_turn": {
+        "fire_crystal": 1,
+        "water_crystal": 3,
+        "wind_crystal": 9,
+        "earth_crystal": 11
+      },
+      "crystal_order": [
+        "fire_crystal",
+        "water_crystal",
+        "wind_crystal",
+        "earth_crystal"
+      ],
+      "hero_crystal_fights": {
+        "fire_guardian": 3,
+        "water_guardian": 2,
+        "wind_guardian": 3,
+        "earth_guardian": 0
+      },
+      "hero_boss_fights": {
+        "fire_guardian": 2,
+        "water_guardian": 1,
+        "wind_guardian": 1,
+        "earth_guardian": 1
+      },
+      "hero_energy_lost": {
+        "fire_guardian": 2,
+        "water_guardian": 3,
+        "wind_guardian": 3,
+        "earth_guardian": 2
+      },
+      "hero_shields_used": {
+        "fire_guardian": 1,
+        "water_guardian": 2,
+        "wind_guardian": 0,
+        "earth_guardian": 0
+      },
+      "hero_ability_uses": {
+        "fire_guardian": 5,
+        "wind_guardian": 4,
+        "water_guardian": 1
+      },
+      "location_power_uses": {
+        "water": 1,
+        "wind": 1
+      },
+      "crystal_reward_uses": {
+        "fire_crystal": 1,
+        "water_crystal": 1,
+        "wind_crystal": 1,
+        "earth_crystal": 1
+      },
+      "light_loss_sources": {
+        "shadow_rises": 5,
+        "shadow_master_failure": 2
+      },
+      "log": [
+        {
+          "turn": 1,
+          "hero": "fire_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "training",
+            3,
+            0,
+            7,
+            0,
+            4
+          ],
+          "after": [
+            "fire",
+            3,
+            0,
+            7,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 2,
+          "hero": "water_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "training",
+            3,
+            0,
+            7,
+            1,
+            4
+          ],
+          "after": [
+            "water",
+            2,
+            0,
+            7,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 3,
+          "hero": "wind_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "training",
+            3,
+            0,
+            7,
+            1,
+            4
+          ],
+          "after": [
+            "water",
+            5,
+            0,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 4,
+          "hero": "earth_guardian",
+          "action": "explore",
+          "before": [
+            "training",
+            4,
+            0,
+            6,
+            2,
+            4
+          ],
+          "after": [
+            "water",
+            5,
+            0,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 5,
+          "hero": "fire_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "fire",
+            4,
+            0,
+            6,
+            2,
+            4
+          ],
+          "after": [
+            "wind",
+            3,
+            0,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 6,
+          "hero": "water_guardian",
+          "action": "explore",
+          "before": [
+            "water",
+            3,
+            0,
+            6,
+            2,
+            4
+          ],
+          "after": [
+            "water",
+            3,
+            1,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 7,
+          "hero": "wind_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "water",
+            5,
+            0,
+            6,
+            2,
+            4
+          ],
+          "after": [
+            "wind",
+            3,
+            0,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 8,
+          "hero": "earth_guardian",
+          "action": "explore",
+          "before": [
+            "water",
+            5,
+            0,
+            6,
+            2,
+            4
+          ],
+          "after": [
+            "water",
+            5,
+            0,
+            5,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 9,
+          "hero": "fire_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "wind",
+            3,
+            0,
+            5,
+            2,
+            4
+          ],
+          "after": [
+            "workshop",
+            3,
+            0,
+            5,
+            3,
+            4
+          ]
+        },
+        {
+          "turn": 10,
+          "hero": "water_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "water",
+            4,
+            1,
+            5,
+            3,
+            4
+          ],
+          "after": [
+            "earth",
+            3,
+            0,
+            4,
+            3,
+            4
+          ]
+        },
+        {
+          "turn": 11,
+          "hero": "wind_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "wind",
+            3,
+            0,
+            4,
+            3,
+            4
+          ],
+          "after": [
+            "earth",
+            2,
+            0,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 12,
+          "hero": "earth_guardian",
+          "action": "move_only",
+          "before": [
+            "water",
+            5,
+            0,
+            4,
+            4,
+            4
+          ],
+          "after": [
+            "workshop",
+            5,
+            0,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 13,
+          "hero": "fire_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "workshop",
+            3,
+            1,
+            4,
+            4,
+            4
+          ],
+          "after": [
+            "temple",
+            3,
+            0,
+            4,
+            4,
+            3
+          ]
+        },
+        {
+          "turn": 14,
+          "hero": "water_guardian",
+          "action": "move_only",
+          "before": [
+            "earth",
+            3,
+            1,
+            4,
+            4,
+            3
+          ],
+          "after": [
+            "workshop",
+            3,
+            1,
+            3,
+            4,
+            3
+          ]
+        },
+        {
+          "turn": 15,
+          "hero": "wind_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "earth",
+            2,
+            0,
+            3,
+            4,
+            3
+          ],
+          "after": [
+            "temple",
+            2,
+            0,
+            3,
+            4,
+            2
+          ]
+        },
+        {
+          "turn": 16,
+          "hero": "earth_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "workshop",
+            5,
+            0,
+            3,
+            4,
+            2
+          ],
+          "after": [
+            "temple",
+            3,
+            0,
+            2,
+            4,
+            2
+          ]
+        },
+        {
+          "turn": 17,
+          "hero": "fire_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "temple",
+            3,
+            0,
+            2,
+            4,
+            2
+          ],
+          "after": [
+            "temple",
+            3,
+            0,
+            1,
+            4,
+            1
+          ]
+        },
+        {
+          "turn": 18,
+          "hero": "water_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "workshop",
+            3,
+            1,
+            1,
+            4,
+            1
+          ],
+          "after": [
+            "temple",
+            2,
+            0,
+            0,
+            4,
+            1
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "strategy": "aggressive",
+    "difficulty": "very_hard",
+    "result": {
+      "win": 0,
+      "turns": 16,
+      "rounds": 4.0,
+      "light_end": 0,
+      "crystals": 4,
+      "shadow_health_end": 4,
+      "boss_phase_turns": 6,
+      "zero_energy_events": 0,
+      "explore_share": 0.125,
+      "fight_share": 0.6875,
+      "build_share": 0.0,
+      "train_share": 0.0625,
+      "action_counts": {
+        "fight_guardian": 9,
+        "explore": 2,
+        "train": 1,
+        "shield_attack_bonus": 1,
+        "move_only": 2,
+        "fight_shadow_master": 2
+      },
+      "card_counts": {
+        "shadow_fog": 2,
+        "shadow_rises": 4,
+        "adventure_help": 1,
+        "shadow_grip": 2,
+        "shadow_ambush": 3,
+        "shadow_block": 2,
+        "shadow_calm": 2,
+        "adventure_element_power": 1
+      },
+      "crystal_turn": {
+        "water_crystal": 2,
+        "wind_crystal": 3,
+        "earth_crystal": 10,
+        "fire_crystal": 11
+      },
+      "crystal_order": [
+        "water_crystal",
+        "wind_crystal",
+        "earth_crystal",
+        "fire_crystal"
+      ],
+      "hero_crystal_fights": {
+        "fire_guardian": 2,
+        "water_guardian": 3,
+        "wind_guardian": 3,
+        "earth_guardian": 1
+      },
+      "hero_boss_fights": {
+        "fire_guardian": 0,
+        "water_guardian": 0,
+        "wind_guardian": 1,
+        "earth_guardian": 1
+      },
+      "hero_energy_lost": {
+        "fire_guardian": 3,
+        "water_guardian": 1,
+        "wind_guardian": 4,
+        "earth_guardian": 2
+      },
+      "hero_shields_used": {
+        "fire_guardian": 0,
+        "water_guardian": 0,
+        "wind_guardian": 1,
+        "earth_guardian": 0
+      },
+      "hero_ability_uses": {
+        "fire_guardian": 2,
+        "wind_guardian": 3
+      },
+      "location_power_uses": {
+        "water": 1,
+        "fire": 1,
+        "earth": 1
+      },
+      "crystal_reward_uses": {
+        "water_crystal": 1,
+        "wind_crystal": 1,
+        "earth_crystal": 1,
+        "fire_crystal": 1
+      },
+      "light_loss_sources": {
+        "shadow_rises": 4,
+        "shadow_master_failure": 2
+      },
+      "log": [
+        {
+          "turn": 1,
+          "hero": "fire_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "training",
+            3,
+            0,
+            6,
+            0,
+            4
+          ],
+          "after": [
+            "fire",
+            2,
+            0,
+            6,
+            0,
+            4
+          ]
+        },
+        {
+          "turn": 2,
+          "hero": "water_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "training",
+            3,
+            0,
+            6,
+            0,
+            4
+          ],
+          "after": [
+            "water",
+            5,
+            0,
+            5,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 3,
+          "hero": "wind_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "training",
+            4,
+            0,
+            5,
+            1,
+            4
+          ],
+          "after": [
+            "wind",
+            4,
+            0,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 4,
+          "hero": "earth_guardian",
+          "action": "explore",
+          "before": [
+            "training",
+            4,
+            0,
+            4,
+            2,
+            4
+          ],
+          "after": [
+            "water",
+            4,
+            0,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 5,
+          "hero": "fire_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "fire",
+            3,
+            0,
+            4,
+            2,
+            4
+          ],
+          "after": [
+            "fire",
+            1,
+            0,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 6,
+          "hero": "water_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "water",
+            5,
+            0,
+            4,
+            2,
+            4
+          ],
+          "after": [
+            "earth",
+            4,
+            0,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 7,
+          "hero": "wind_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "wind",
+            4,
+            0,
+            4,
+            2,
+            4
+          ],
+          "after": [
+            "fire",
+            2,
+            0,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 8,
+          "hero": "earth_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "water",
+            4,
+            0,
+            4,
+            2,
+            4
+          ],
+          "after": [
+            "earth",
+            4,
+            0,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 9,
+          "hero": "fire_guardian",
+          "action": "train",
+          "before": [
+            "fire",
+            1,
+            0,
+            4,
+            2,
+            4
+          ],
+          "after": [
+            "training",
+            3,
+            0,
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 10,
+          "hero": "water_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "earth",
+            4,
+            0,
+            3,
+            2,
+            4
+          ],
+          "after": [
+            "earth",
+            4,
+            0,
+            3,
+            3,
+            4
+          ]
+        },
+        {
+          "turn": 11,
+          "hero": "wind_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "fire",
+            2,
+            1,
+            3,
+            3,
+            4
+          ],
+          "after": [
+            "fire",
+            3,
+            0,
+            3,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 12,
+          "hero": "earth_guardian",
+          "action": "move_only",
+          "before": [
+            "earth",
+            4,
+            0,
+            3,
+            4,
+            4
+          ],
+          "after": [
+            "workshop",
+            4,
+            0,
+            2,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 13,
+          "hero": "fire_guardian",
+          "action": "explore",
+          "before": [
+            "training",
+            3,
+            1,
+            2,
+            4,
+            4
+          ],
+          "after": [
+            "workshop",
+            4,
+            1,
+            2,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 14,
+          "hero": "water_guardian",
+          "action": "move_only",
+          "before": [
+            "earth",
+            4,
+            0,
+            2,
+            4,
+            4
+          ],
+          "after": [
+            "workshop",
+            4,
+            0,
+            2,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 15,
+          "hero": "wind_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "fire",
+            3,
+            0,
+            2,
+            4,
+            4
+          ],
+          "after": [
+            "temple",
+            1,
+            0,
+            1,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 16,
+          "hero": "earth_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "workshop",
+            4,
+            0,
+            1,
+            4,
+            4
+          ],
+          "after": [
+            "temple",
+            3,
+            0,
+            0,
+            4,
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "strategy": "balanced",
+    "difficulty": "normal",
+    "result": {
+      "win": 1,
+      "turns": 16,
+      "rounds": 4.0,
+      "light_end": 5,
+      "crystals": 4,
+      "shadow_health_end": 0,
+      "boss_phase_turns": 7,
+      "zero_energy_events": 0,
+      "explore_share": 0.0625,
+      "fight_share": 0.5625,
+      "build_share": 0.25,
+      "train_share": 0.0,
+      "action_counts": {
+        "fight_guardian": 4,
+        "build": 4,
+        "move_only": 2,
+        "shield_attack_bonus": 6,
+        "explore": 1,
+        "fight_shadow_master": 5
+      },
+      "card_counts": {
+        "shadow_rises": 3,
+        "shadow_ambush": 4,
+        "shadow_block": 2,
+        "shadow_fog": 2,
+        "shadow_calm": 2,
+        "shadow_grip": 2,
+        "adventure_energy": 1,
+        "adventure_energy_light_choice": 1
+      },
+      "crystal_turn": {
+        "fire_crystal": 1,
+        "water_crystal": 2,
+        "wind_crystal": 7,
+        "earth_crystal": 10
+      },
+      "crystal_order": [
+        "fire_crystal",
+        "water_crystal",
+        "wind_crystal",
+        "earth_crystal"
+      ],
+      "hero_crystal_fights": {
+        "fire_guardian": 1,
+        "water_guardian": 2,
+        "wind_guardian": 1,
+        "earth_guardian": 0
+      },
+      "hero_boss_fights": {
+        "fire_guardian": 1,
+        "water_guardian": 0,
+        "wind_guardian": 2,
+        "earth_guardian": 2
+      },
+      "hero_energy_lost": {
+        "fire_guardian": 0,
+        "water_guardian": 0,
+        "wind_guardian": 1,
+        "earth_guardian": 0
+      },
+      "hero_shields_used": {
+        "fire_guardian": 2,
+        "water_guardian": 1,
+        "wind_guardian": 3,
+        "earth_guardian": 3
+      },
+      "hero_ability_uses": {
+        "fire_guardian": 2,
+        "wind_guardian": 3,
+        "earth_guardian": 1
+      },
+      "location_power_uses": {
+        "water": 1
+      },
+      "crystal_reward_uses": {
+        "fire_crystal": 1,
+        "water_crystal": 1,
+        "wind_crystal": 1,
+        "earth_crystal": 1
+      },
+      "light_loss_sources": {
+        "shadow_rises": 3,
+        "shadow_master_failure": 1
+      },
+      "log": [
+        {
+          "turn": 1,
+          "hero": "fire_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "training",
+            3,
+            0,
+            8,
+            0,
+            4
+          ],
+          "after": [
+            "fire",
+            4,
+            0,
+            7,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 2,
+          "hero": "water_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "training",
+            3,
+            0,
+            7,
+            1,
+            4
+          ],
+          "after": [
+            "water",
+            5,
+            0,
+            7,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 3,
+          "hero": "wind_guardian",
+          "action": "build",
+          "before": [
+            "training",
+            4,
+            0,
+            7,
+            2,
+            4
+          ],
+          "after": [
+            "workshop",
+            4,
+            2,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 4,
+          "hero": "earth_guardian",
+          "action": "move_only",
+          "before": [
+            "training",
+            4,
+            0,
+            6,
+            2,
+            4
+          ],
+          "after": [
+            "fire",
+            4,
+            0,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 5,
+          "hero": "fire_guardian",
+          "action": "build",
+          "before": [
+            "fire",
+            5,
+            0,
+            6,
+            2,
+            4
+          ],
+          "after": [
+            "workshop",
+            5,
+            2,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 6,
+          "hero": "water_guardian",
+          "action": "build",
+          "before": [
+            "water",
+            5,
+            0,
+            6,
+            2,
+            4
+          ],
+          "after": [
+            "workshop",
+            5,
+            2,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 7,
+          "hero": "wind_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "workshop",
+            4,
+            2,
+            6,
+            2,
+            4
+          ],
+          "after": [
+            "wind",
+            4,
+            1,
+            6,
+            3,
+            4
+          ]
+        },
+        {
+          "turn": 8,
+          "hero": "earth_guardian",
+          "action": "build",
+          "before": [
+            "workshop",
+            4,
+            0,
+            6,
+            3,
+            4
+          ],
+          "after": [
+            "workshop",
+            4,
+            0,
+            6,
+            3,
+            4
+          ]
+        },
+        {
+          "turn": 9,
+          "hero": "fire_guardian",
+          "action": "explore",
+          "before": [
+            "workshop",
+            5,
+            2,
+            6,
+            3,
+            4
+          ],
+          "after": [
+            "workshop",
+            5,
+            1,
+            7,
+            3,
+            4
+          ]
+        },
+        {
+          "turn": 10,
+          "hero": "water_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "workshop",
+            5,
+            2,
+            7,
+            3,
+            4
+          ],
+          "after": [
+            "earth",
+            5,
+            1,
+            7,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 11,
+          "hero": "wind_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "wind",
+            4,
+            2,
+            7,
+            4,
+            4
+          ],
+          "after": [
+            "temple",
+            4,
+            0,
+            7,
+            4,
+            3
+          ]
+        },
+        {
+          "turn": 12,
+          "hero": "earth_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "workshop",
+            4,
+            2,
+            7,
+            4,
+            3
+          ],
+          "after": [
+            "temple",
+            4,
+            1,
+            7,
+            4,
+            2
+          ]
+        },
+        {
+          "turn": 13,
+          "hero": "fire_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "workshop",
+            5,
+            1,
+            7,
+            4,
+            2
+          ],
+          "after": [
+            "temple",
+            5,
+            0,
+            7,
+            4,
+            1
+          ]
+        },
+        {
+          "turn": 14,
+          "hero": "water_guardian",
+          "action": "move_only",
+          "before": [
+            "earth",
+            5,
+            1,
+            7,
+            4,
+            1
+          ],
+          "after": [
+            "earth",
+            5,
+            1,
+            6,
+            4,
+            1
+          ]
+        },
+        {
+          "turn": 15,
+          "hero": "wind_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "temple",
+            4,
+            0,
+            6,
+            4,
+            1
+          ],
+          "after": [
+            "temple",
+            3,
+            0,
+            5,
+            4,
+            1
+          ]
+        },
+        {
+          "turn": 16,
+          "hero": "earth_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "temple",
+            4,
+            1,
+            5,
+            4,
+            1
+          ],
+          "after": [
+            "temple",
+            4,
+            0,
+            5,
+            4,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "strategy": "balanced",
+    "difficulty": "hard",
+    "result": {
+      "win": 1,
+      "turns": 16,
+      "rounds": 4.0,
+      "light_end": 4,
+      "crystals": 4,
+      "shadow_health_end": 0,
+      "boss_phase_turns": 7,
+      "zero_energy_events": 0,
+      "explore_share": 0.125,
+      "fight_share": 0.5,
+      "build_share": 0.25,
+      "train_share": 0.0,
+      "action_counts": {
+        "fight_guardian": 4,
+        "build": 4,
+        "move_only": 2,
+        "explore": 2,
+        "shield_attack_bonus": 5,
+        "fight_shadow_master": 4
+      },
+      "card_counts": {
+        "shadow_ambush": 4,
+        "shadow_grip": 1,
+        "shadow_fog": 2,
+        "shadow_calm": 2,
+        "shadow_rises": 4,
+        "adventure_old_map": 1,
+        "shadow_block": 2,
+        "adventure_energy": 1,
+        "adventure_energy_light_choice": 1
+      },
+      "crystal_turn": {
+        "fire_crystal": 1,
+        "water_crystal": 2,
+        "earth_crystal": 9,
+        "wind_crystal": 10
+      },
+      "crystal_order": [
+        "fire_crystal",
+        "water_crystal",
+        "earth_crystal",
+        "wind_crystal"
+      ],
+      "hero_crystal_fights": {
+        "fire_guardian": 2,
+        "water_guardian": 2,
+        "wind_guardian": 0,
+        "earth_guardian": 0
+      },
+      "hero_boss_fights": {
+        "fire_guardian": 0,
+        "water_guardian": 1,
+        "wind_guardian": 2,
+        "earth_guardian": 1
+      },
+      "hero_energy_lost": {
+        "fire_guardian": 1,
+        "water_guardian": 1,
+        "wind_guardian": 0,
+        "earth_guardian": 0
+      },
+      "hero_shields_used": {
+        "fire_guardian": 1,
+        "water_guardian": 2,
+        "wind_guardian": 2,
+        "earth_guardian": 1
+      },
+      "hero_ability_uses": {
+        "fire_guardian": 2,
+        "wind_guardian": 2,
+        "earth_guardian": 1
+      },
+      "location_power_uses": {
+        "water": 1
+      },
+      "crystal_reward_uses": {
+        "fire_crystal": 1,
+        "water_crystal": 1,
+        "earth_crystal": 1,
+        "wind_crystal": 1
+      },
+      "light_loss_sources": {
+        "shadow_rises": 4
+      },
+      "log": [
+        {
+          "turn": 1,
+          "hero": "fire_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "training",
+            3,
+            0,
+            7,
+            0,
+            4
+          ],
+          "after": [
+            "fire",
+            3,
+            0,
+            7,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 2,
+          "hero": "water_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "training",
+            3,
+            0,
+            7,
+            1,
+            4
+          ],
+          "after": [
+            "water",
+            4,
+            0,
+            7,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 3,
+          "hero": "wind_guardian",
+          "action": "build",
+          "before": [
+            "training",
+            4,
+            0,
+            7,
+            2,
+            4
+          ],
+          "after": [
+            "workshop",
+            4,
+            2,
+            7,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 4,
+          "hero": "earth_guardian",
+          "action": "move_only",
+          "before": [
+            "training",
+            4,
+            0,
+            7,
+            2,
+            4
+          ],
+          "after": [
+            "fire",
+            4,
+            0,
+            7,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 5,
+          "hero": "fire_guardian",
+          "action": "build",
+          "before": [
+            "fire",
+            4,
+            0,
+            7,
+            2,
+            4
+          ],
+          "after": [
+            "workshop",
+            4,
+            2,
+            7,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 6,
+          "hero": "water_guardian",
+          "action": "build",
+          "before": [
+            "water",
+            4,
+            0,
+            7,
+            2,
+            4
+          ],
+          "after": [
+            "workshop",
+            4,
+            2,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 7,
+          "hero": "wind_guardian",
+          "action": "explore",
+          "before": [
+            "workshop",
+            4,
+            2,
+            6,
+            2,
+            4
+          ],
+          "after": [
+            "workshop",
+            4,
+            2,
+            5,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 8,
+          "hero": "earth_guardian",
+          "action": "build",
+          "before": [
+            "fire",
+            4,
+            0,
+            5,
+            2,
+            4
+          ],
+          "after": [
+            "workshop",
+            4,
+            2,
+            5,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 9,
+          "hero": "fire_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "workshop",
+            4,
+            2,
+            5,
+            2,
+            4
+          ],
+          "after": [
+            "earth",
+            4,
+            2,
+            5,
+            3,
+            4
+          ]
+        },
+        {
+          "turn": 10,
+          "hero": "water_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "workshop",
+            4,
+            2,
+            5,
+            3,
+            4
+          ],
+          "after": [
+            "workshop",
+            4,
+            0,
+            5,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 11,
+          "hero": "wind_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "workshop",
+            4,
+            2,
+            5,
+            4,
+            4
+          ],
+          "after": [
+            "temple",
+            4,
+            1,
+            4,
+            4,
+            3
+          ]
+        },
+        {
+          "turn": 12,
+          "hero": "earth_guardian",
+          "action": "explore",
+          "before": [
+            "workshop",
+            4,
+            2,
+            4,
+            4,
+            3
+          ],
+          "after": [
+            "workshop",
+            4,
+            2,
+            5,
+            4,
+            3
+          ]
+        },
+        {
+          "turn": 13,
+          "hero": "fire_guardian",
+          "action": "move_only",
+          "before": [
+            "earth",
+            4,
+            2,
+            5,
+            4,
+            3
+          ],
+          "after": [
+            "earth",
+            4,
+            2,
+            4,
+            4,
+            3
+          ]
+        },
+        {
+          "turn": 14,
+          "hero": "water_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "workshop",
+            4,
+            0,
+            4,
+            4,
+            3
+          ],
+          "after": [
+            "temple",
+            4,
+            0,
+            4,
+            4,
+            2
+          ]
+        },
+        {
+          "turn": 15,
+          "hero": "wind_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "temple",
+            4,
+            1,
+            4,
+            4,
+            2
+          ],
+          "after": [
+            "temple",
+            4,
+            0,
+            4,
+            4,
+            1
+          ]
+        },
+        {
+          "turn": 16,
+          "hero": "earth_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "workshop",
+            4,
+            2,
+            4,
+            4,
+            1
+          ],
+          "after": [
+            "temple",
+            4,
+            1,
+            4,
+            4,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "strategy": "balanced",
+    "difficulty": "very_hard",
+    "result": {
+      "win": 0,
+      "turns": 12,
+      "rounds": 3.0,
+      "light_end": 0,
+      "crystals": 4,
+      "shadow_health_end": 4,
+      "boss_phase_turns": 4,
+      "zero_energy_events": 0,
+      "explore_share": 0.08333333333333333,
+      "fight_share": 0.5833333333333334,
+      "build_share": 0.3333333333333333,
+      "train_share": 0.0,
+      "action_counts": {
+        "fight_guardian": 5,
+        "build": 4,
+        "shield_attack_bonus": 3,
+        "explore": 1,
+        "fight_shadow_master": 2
+      },
+      "card_counts": {
+        "shadow_rises": 4,
+        "shadow_ambush": 3,
+        "shadow_grip": 2,
+        "shadow_fog": 1,
+        "shadow_calm": 1,
+        "shadow_block": 1,
+        "adventure_teamwork": 1
+      },
+      "crystal_turn": {
+        "water_crystal": 2,
+        "wind_crystal": 3,
+        "fire_crystal": 4,
+        "earth_crystal": 9
+      },
+      "crystal_order": [
+        "water_crystal",
+        "wind_crystal",
+        "fire_crystal",
+        "earth_crystal"
+      ],
+      "hero_crystal_fights": {
+        "fire_guardian": 2,
+        "water_guardian": 1,
+        "wind_guardian": 1,
+        "earth_guardian": 1
+      },
+      "hero_boss_fights": {
+        "fire_guardian": 0,
+        "water_guardian": 0,
+        "wind_guardian": 1,
+        "earth_guardian": 1
+      },
+      "hero_energy_lost": {
+        "fire_guardian": 1,
+        "water_guardian": 1,
+        "wind_guardian": 0,
+        "earth_guardian": 1
+      },
+      "hero_shields_used": {
+        "fire_guardian": 1,
+        "water_guardian": 1,
+        "wind_guardian": 2,
+        "earth_guardian": 2
+      },
+      "hero_ability_uses": {
+        "fire_guardian": 2,
+        "wind_guardian": 3,
+        "earth_guardian": 1,
+        "water_guardian": 1
+      },
+      "location_power_uses": {
+        "water": 1,
+        "fire": 1
+      },
+      "crystal_reward_uses": {
+        "water_crystal": 1,
+        "wind_crystal": 1,
+        "fire_crystal": 1,
+        "earth_crystal": 1
+      },
+      "light_loss_sources": {
+        "shadow_rises": 4,
+        "shadow_master_failure": 2
+      },
+      "log": [
+        {
+          "turn": 1,
+          "hero": "fire_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "training",
+            3,
+            0,
+            6,
+            0,
+            4
+          ],
+          "after": [
+            "fire",
+            2,
+            0,
+            5,
+            0,
+            4
+          ]
+        },
+        {
+          "turn": 2,
+          "hero": "water_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "training",
+            3,
+            0,
+            5,
+            0,
+            4
+          ],
+          "after": [
+            "water",
+            4,
+            0,
+            5,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 3,
+          "hero": "wind_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "training",
+            4,
+            0,
+            5,
+            1,
+            4
+          ],
+          "after": [
+            "wind",
+            4,
+            0,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 4,
+          "hero": "earth_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "training",
+            4,
+            0,
+            4,
+            2,
+            4
+          ],
+          "after": [
+            "fire",
+            3,
+            0,
+            4,
+            3,
+            4
+          ]
+        },
+        {
+          "turn": 5,
+          "hero": "fire_guardian",
+          "action": "build",
+          "before": [
+            "fire",
+            4,
+            0,
+            4,
+            3,
+            4
+          ],
+          "after": [
+            "workshop",
+            4,
+            2,
+            4,
+            3,
+            4
+          ]
+        },
+        {
+          "turn": 6,
+          "hero": "water_guardian",
+          "action": "build",
+          "before": [
+            "water",
+            4,
+            0,
+            4,
+            3,
+            4
+          ],
+          "after": [
+            "workshop",
+            4,
+            2,
+            4,
+            3,
+            4
+          ]
+        },
+        {
+          "turn": 7,
+          "hero": "wind_guardian",
+          "action": "build",
+          "before": [
+            "wind",
+            4,
+            0,
+            4,
+            3,
+            4
+          ],
+          "after": [
+            "workshop",
+            4,
+            2,
+            4,
+            3,
+            4
+          ]
+        },
+        {
+          "turn": 8,
+          "hero": "earth_guardian",
+          "action": "build",
+          "before": [
+            "fire",
+            3,
+            0,
+            4,
+            3,
+            4
+          ],
+          "after": [
+            "workshop",
+            3,
+            2,
+            4,
+            3,
+            4
+          ]
+        },
+        {
+          "turn": 9,
+          "hero": "fire_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "workshop",
+            4,
+            2,
+            4,
+            3,
+            4
+          ],
+          "after": [
+            "earth",
+            4,
+            2,
+            3,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 10,
+          "hero": "water_guardian",
+          "action": "explore",
+          "before": [
+            "workshop",
+            4,
+            2,
+            3,
+            4,
+            4
+          ],
+          "after": [
+            "workshop",
+            4,
+            1,
+            3,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 11,
+          "hero": "wind_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "workshop",
+            4,
+            2,
+            3,
+            4,
+            4
+          ],
+          "after": [
+            "temple",
+            4,
+            0,
+            2,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 12,
+          "hero": "earth_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "temple",
+            4,
+            2,
+            2,
+            4,
+            4
+          ],
+          "after": [
+            "temple",
+            4,
+            0,
+            0,
+            4,
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "strategy": "cautious",
+    "difficulty": "normal",
+    "result": {
+      "win": 0,
+      "turns": 27,
+      "rounds": 6.75,
+      "light_end": 0,
+      "crystals": 4,
+      "shadow_health_end": 3,
+      "boss_phase_turns": 5,
+      "zero_energy_events": 0,
+      "explore_share": 0.3333333333333333,
+      "fight_share": 0.37037037037037035,
+      "build_share": 0.25925925925925924,
+      "train_share": 0.037037037037037035,
+      "action_counts": {
+        "fight_guardian": 8,
+        "explore": 9,
+        "build": 7,
+        "train": 1,
+        "shield_attack_bonus": 8,
+        "fight_shadow_master": 2
+      },
+      "card_counts": {
+        "shadow_grip": 3,
+        "adventure_teamwork": 1,
+        "shadow_calm": 4,
+        "shadow_fog": 4,
+        "adventure_shadow_guard": 1,
+        "shadow_ambush": 6,
+        "shadow_rises": 7,
+        "shadow_block": 3,
+        "adventure_energy": 1,
+        "adventure_energy_light_choice": 1,
+        "adventure_element_power": 1,
+        "adventure_old_map": 1,
+        "adventure_whisper": 1,
+        "adventure_help": 1,
+        "adventure_rocks": 1,
+        "adventure_weak_point": 1
+      },
+      "crystal_turn": {
+        "fire_crystal": 1,
+        "water_crystal": 9,
+        "earth_crystal": 20,
+        "wind_crystal": 23
+      },
+      "crystal_order": [
+        "fire_crystal",
+        "water_crystal",
+        "earth_crystal",
+        "wind_crystal"
+      ],
+      "hero_crystal_fights": {
+        "fire_guardian": 3,
+        "water_guardian": 2,
+        "wind_guardian": 2,
+        "earth_guardian": 1
+      },
+      "hero_boss_fights": {
+        "fire_guardian": 1,
+        "water_guardian": 0,
+        "wind_guardian": 1,
+        "earth_guardian": 0
+      },
+      "hero_energy_lost": {
+        "fire_guardian": 3,
+        "water_guardian": 1,
+        "wind_guardian": 1,
+        "earth_guardian": 2
+      },
+      "hero_shields_used": {
+        "fire_guardian": 4,
+        "water_guardian": 4,
+        "wind_guardian": 4,
+        "earth_guardian": 1
+      },
+      "hero_ability_uses": {
+        "fire_guardian": 4,
+        "water_guardian": 2,
+        "wind_guardian": 5
+      },
+      "location_power_uses": {
+        "wind": 1
+      },
+      "crystal_reward_uses": {
+        "fire_crystal": 1,
+        "water_crystal": 1,
+        "earth_crystal": 1,
+        "wind_crystal": 1
+      },
+      "light_loss_sources": {
+        "shadow_rises": 7,
+        "adventure_whisper": 1,
+        "shadow_master_failure": 1
+      },
+      "log": [
+        {
+          "turn": 1,
+          "hero": "fire_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "training",
+            3,
+            0,
+            8,
+            0,
+            4
+          ],
+          "after": [
+            "fire",
+            3,
+            0,
+            8,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 2,
+          "hero": "water_guardian",
+          "action": "explore",
+          "before": [
+            "training",
+            3,
+            0,
+            8,
+            1,
+            4
+          ],
+          "after": [
+            "fire",
+            3,
+            0,
+            8,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 3,
+          "hero": "wind_guardian",
+          "action": "build",
+          "before": [
+            "water",
+            3,
+            0,
+            8,
+            1,
+            4
+          ],
+          "after": [
+            "workshop",
+            3,
+            2,
+            8,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 4,
+          "hero": "earth_guardian",
+          "action": "explore",
+          "before": [
+            "training",
+            3,
+            0,
+            8,
+            1,
+            4
+          ],
+          "after": [
+            "fire",
+            1,
+            0,
+            8,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 5,
+          "hero": "fire_guardian",
+          "action": "build",
+          "before": [
+            "fire",
+            3,
+            0,
+            8,
+            1,
+            4
+          ],
+          "after": [
+            "workshop",
+            3,
+            2,
+            7,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 6,
+          "hero": "water_guardian",
+          "action": "build",
+          "before": [
+            "fire",
+            3,
+            0,
+            7,
+            1,
+            4
+          ],
+          "after": [
+            "workshop",
+            3,
+            2,
+            7,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 7,
+          "hero": "wind_guardian",
+          "action": "explore",
+          "before": [
+            "workshop",
+            3,
+            2,
+            7,
+            1,
+            4
+          ],
+          "after": [
+            "workshop",
+            3,
+            2,
+            7,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 8,
+          "hero": "earth_guardian",
+          "action": "train",
+          "before": [
+            "fire",
+            1,
+            0,
+            7,
+            1,
+            4
+          ],
+          "after": [
+            "training",
+            3,
+            0,
+            7,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 9,
+          "hero": "fire_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "workshop",
+            3,
+            2,
+            7,
+            1,
+            4
+          ],
+          "after": [
+            "water",
+            4,
+            1,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 10,
+          "hero": "water_guardian",
+          "action": "explore",
+          "before": [
+            "workshop",
+            4,
+            2,
+            6,
+            2,
+            4
+          ],
+          "after": [
+            "earth",
+            5,
+            2,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 11,
+          "hero": "wind_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "workshop",
+            4,
+            2,
+            6,
+            2,
+            4
+          ],
+          "after": [
+            "wind",
+            3,
+            0,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 12,
+          "hero": "earth_guardian",
+          "action": "explore",
+          "before": [
+            "training",
+            4,
+            0,
+            6,
+            2,
+            4
+          ],
+          "after": [
+            "fire",
+            4,
+            1,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 13,
+          "hero": "fire_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "water",
+            4,
+            1,
+            6,
+            2,
+            4
+          ],
+          "after": [
+            "earth",
+            3,
+            0,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 14,
+          "hero": "water_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "earth",
+            5,
+            2,
+            6,
+            2,
+            4
+          ],
+          "after": [
+            "earth",
+            5,
+            0,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 15,
+          "hero": "wind_guardian",
+          "action": "build",
+          "before": [
+            "wind",
+            3,
+            0,
+            6,
+            2,
+            4
+          ],
+          "after": [
+            "workshop",
+            3,
+            2,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 16,
+          "hero": "earth_guardian",
+          "action": "explore",
+          "before": [
+            "fire",
+            4,
+            1,
+            6,
+            2,
+            4
+          ],
+          "after": [
+            "workshop",
+            4,
+            1,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 17,
+          "hero": "fire_guardian",
+          "action": "build",
+          "before": [
+            "earth",
+            3,
+            0,
+            4,
+            2,
+            4
+          ],
+          "after": [
+            "workshop",
+            3,
+            2,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 18,
+          "hero": "water_guardian",
+          "action": "build",
+          "before": [
+            "earth",
+            5,
+            0,
+            4,
+            2,
+            4
+          ],
+          "after": [
+            "workshop",
+            5,
+            0,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 19,
+          "hero": "wind_guardian",
+          "action": "explore",
+          "before": [
+            "workshop",
+            3,
+            2,
+            4,
+            2,
+            4
+          ],
+          "after": [
+            "workshop",
+            3,
+            2,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 20,
+          "hero": "earth_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "workshop",
+            4,
+            2,
+            4,
+            2,
+            4
+          ],
+          "after": [
+            "earth",
+            4,
+            2,
+            3,
+            3,
+            4
+          ]
+        },
+        {
+          "turn": 21,
+          "hero": "fire_guardian",
+          "action": "explore",
+          "before": [
+            "workshop",
+            4,
+            2,
+            3,
+            3,
+            4
+          ],
+          "after": [
+            "workshop",
+            4,
+            0,
+            3,
+            3,
+            4
+          ]
+        },
+        {
+          "turn": 22,
+          "hero": "water_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "workshop",
+            5,
+            1,
+            3,
+            3,
+            4
+          ],
+          "after": [
+            "wind",
+            4,
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "turn": 23,
+          "hero": "wind_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "workshop",
+            3,
+            2,
+            2,
+            3,
+            4
+          ],
+          "after": [
+            "workshop",
+            3,
+            1,
+            2,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 24,
+          "hero": "earth_guardian",
+          "action": "explore",
+          "before": [
+            "earth",
+            4,
+            2,
+            2,
+            4,
+            4
+          ],
+          "after": [
+            "workshop",
+            5,
+            2,
+            2,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 25,
+          "hero": "fire_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "workshop",
+            4,
+            0,
+            2,
+            4,
+            4
+          ],
+          "after": [
+            "temple",
+            3,
+            0,
+            1,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 26,
+          "hero": "water_guardian",
+          "action": "build",
+          "before": [
+            "wind",
+            4,
+            0,
+            1,
+            4,
+            4
+          ],
+          "after": [
+            "workshop",
+            4,
+            1,
+            1,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 27,
+          "hero": "wind_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "workshop",
+            3,
+            2,
+            1,
+            4,
+            4
+          ],
+          "after": [
+            "temple",
+            3,
+            1,
+            0,
+            4,
+            3
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "strategy": "cautious",
+    "difficulty": "hard",
+    "result": {
+      "win": 0,
+      "turns": 24,
+      "rounds": 6.0,
+      "light_end": 0,
+      "crystals": 4,
+      "shadow_health_end": 1,
+      "boss_phase_turns": 10,
+      "zero_energy_events": 1,
+      "explore_share": 0.2916666666666667,
+      "fight_share": 0.4166666666666667,
+      "build_share": 0.16666666666666666,
+      "train_share": 0.041666666666666664,
+      "action_counts": {
+        "fight_guardian": 5,
+        "build": 4,
+        "explore": 7,
+        "train": 1,
+        "shield_attack_bonus": 6,
+        "move_only": 2,
+        "fight_shadow_master": 5
+      },
+      "card_counts": {
+        "shadow_ambush": 6,
+        "shadow_rises": 6,
+        "adventure_shadow_guard": 1,
+        "shadow_calm": 3,
+        "shadow_grip": 2,
+        "shadow_block": 3,
+        "adventure_passage": 1,
+        "shadow_fog": 3,
+        "adventure_element_power": 1,
+        "adventure_help": 1,
+        "adventure_weak_point": 1,
+        "adventure_energy": 1,
+        "adventure_energy_light_choice": 1,
+        "adventure_teamwork": 1
+      },
+      "crystal_turn": {
+        "fire_crystal": 2,
+        "wind_crystal": 7,
+        "water_crystal": 10,
+        "earth_crystal": 15
+      },
+      "crystal_order": [
+        "fire_crystal",
+        "wind_crystal",
+        "water_crystal",
+        "earth_crystal"
+      ],
+      "hero_crystal_fights": {
+        "fire_guardian": 1,
+        "water_guardian": 2,
+        "wind_guardian": 2,
+        "earth_guardian": 0
+      },
+      "hero_boss_fights": {
+        "fire_guardian": 0,
+        "water_guardian": 1,
+        "wind_guardian": 1,
+        "earth_guardian": 3
+      },
+      "hero_energy_lost": {
+        "fire_guardian": 2,
+        "water_guardian": 0,
+        "wind_guardian": 0,
+        "earth_guardian": 4
+      },
+      "hero_shields_used": {
+        "fire_guardian": 1,
+        "water_guardian": 3,
+        "wind_guardian": 3,
+        "earth_guardian": 2
+      },
+      "hero_ability_uses": {
+        "fire_guardian": 1,
+        "wind_guardian": 4,
+        "earth_guardian": 1,
+        "water_guardian": 1
+      },
+      "location_power_uses": {
+        "fire": 1,
+        "water": 1
+      },
+      "crystal_reward_uses": {
+        "fire_crystal": 1,
+        "wind_crystal": 1,
+        "water_crystal": 1,
+        "earth_crystal": 1
+      },
+      "light_loss_sources": {
+        "shadow_rises": 6,
+        "shadow_master_failure": 2
+      },
+      "log": [
+        {
+          "turn": 1,
+          "hero": "fire_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "training",
+            3,
+            0,
+            7,
+            0,
+            4
+          ],
+          "after": [
+            "fire",
+            1,
+            0,
+            7,
+            0,
+            4
+          ]
+        },
+        {
+          "turn": 2,
+          "hero": "water_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "training",
+            3,
+            0,
+            7,
+            0,
+            4
+          ],
+          "after": [
+            "fire",
+            3,
+            0,
+            6,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 3,
+          "hero": "wind_guardian",
+          "action": "build",
+          "before": [
+            "training",
+            3,
+            0,
+            6,
+            1,
+            4
+          ],
+          "after": [
+            "workshop",
+            3,
+            2,
+            5,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 4,
+          "hero": "earth_guardian",
+          "action": "explore",
+          "before": [
+            "training",
+            3,
+            0,
+            5,
+            1,
+            4
+          ],
+          "after": [
+            "fire",
+            2,
+            0,
+            5,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 5,
+          "hero": "fire_guardian",
+          "action": "train",
+          "before": [
+            "fire",
+            2,
+            0,
+            5,
+            1,
+            4
+          ],
+          "after": [
+            "training",
+            4,
+            0,
+            5,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 6,
+          "hero": "water_guardian",
+          "action": "build",
+          "before": [
+            "fire",
+            3,
+            0,
+            5,
+            1,
+            4
+          ],
+          "after": [
+            "workshop",
+            3,
+            1,
+            5,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 7,
+          "hero": "wind_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "workshop",
+            3,
+            2,
+            5,
+            1,
+            4
+          ],
+          "after": [
+            "wind",
+            3,
+            1,
+            5,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 8,
+          "hero": "earth_guardian",
+          "action": "explore",
+          "before": [
+            "workshop",
+            2,
+            0,
+            5,
+            2,
+            4
+          ],
+          "after": [
+            "workshop",
+            2,
+            0,
+            5,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 9,
+          "hero": "fire_guardian",
+          "action": "explore",
+          "before": [
+            "training",
+            4,
+            0,
+            5,
+            2,
+            4
+          ],
+          "after": [
+            "training",
+            5,
+            0,
+            5,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 10,
+          "hero": "water_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "workshop",
+            3,
+            1,
+            5,
+            2,
+            4
+          ],
+          "after": [
+            "water",
+            5,
+            0,
+            5,
+            3,
+            4
+          ]
+        },
+        {
+          "turn": 11,
+          "hero": "wind_guardian",
+          "action": "explore",
+          "before": [
+            "wind",
+            4,
+            1,
+            5,
+            3,
+            4
+          ],
+          "after": [
+            "wind",
+            5,
+            1,
+            4,
+            3,
+            4
+          ]
+        },
+        {
+          "turn": 12,
+          "hero": "earth_guardian",
+          "action": "build",
+          "before": [
+            "workshop",
+            3,
+            0,
+            4,
+            3,
+            4
+          ],
+          "after": [
+            "workshop",
+            3,
+            1,
+            3,
+            3,
+            4
+          ]
+        },
+        {
+          "turn": 13,
+          "hero": "fire_guardian",
+          "action": "move_only",
+          "before": [
+            "training",
+            5,
+            1,
+            3,
+            3,
+            4
+          ],
+          "after": [
+            "water",
+            5,
+            0,
+            3,
+            3,
+            4
+          ]
+        },
+        {
+          "turn": 14,
+          "hero": "water_guardian",
+          "action": "build",
+          "before": [
+            "water",
+            5,
+            0,
+            3,
+            3,
+            4
+          ],
+          "after": [
+            "workshop",
+            5,
+            1,
+            3,
+            3,
+            4
+          ]
+        },
+        {
+          "turn": 15,
+          "hero": "wind_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "wind",
+            5,
+            1,
+            3,
+            3,
+            4
+          ],
+          "after": [
+            "earth",
+            5,
+            1,
+            3,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 16,
+          "hero": "earth_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "workshop",
+            3,
+            2,
+            3,
+            4,
+            4
+          ],
+          "after": [
+            "temple",
+            2,
+            0,
+            2,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 17,
+          "hero": "fire_guardian",
+          "action": "explore",
+          "before": [
+            "water",
+            5,
+            1,
+            2,
+            4,
+            4
+          ],
+          "after": [
+            "workshop",
+            5,
+            1,
+            2,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 18,
+          "hero": "water_guardian",
+          "action": "explore",
+          "before": [
+            "workshop",
+            5,
+            1,
+            2,
+            4,
+            4
+          ],
+          "after": [
+            "workshop",
+            5,
+            1,
+            2,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 19,
+          "hero": "wind_guardian",
+          "action": "move_only",
+          "before": [
+            "earth",
+            5,
+            1,
+            2,
+            4,
+            4
+          ],
+          "after": [
+            "earth",
+            5,
+            1,
+            2,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 20,
+          "hero": "earth_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "temple",
+            2,
+            0,
+            2,
+            4,
+            4
+          ],
+          "after": [
+            "temple",
+            1,
+            0,
+            2,
+            4,
+            3
+          ]
+        },
+        {
+          "turn": 21,
+          "hero": "fire_guardian",
+          "action": "explore",
+          "before": [
+            "workshop",
+            5,
+            1,
+            2,
+            4,
+            3
+          ],
+          "after": [
+            "workshop",
+            5,
+            1,
+            2,
+            4,
+            3
+          ]
+        },
+        {
+          "turn": 22,
+          "hero": "water_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "workshop",
+            5,
+            1,
+            2,
+            4,
+            3
+          ],
+          "after": [
+            "temple",
+            5,
+            0,
+            1,
+            4,
+            2
+          ]
+        },
+        {
+          "turn": 23,
+          "hero": "wind_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "earth",
+            5,
+            1,
+            1,
+            4,
+            2
+          ],
+          "after": [
+            "temple",
+            5,
+            0,
+            1,
+            4,
+            1
+          ]
+        },
+        {
+          "turn": 24,
+          "hero": "earth_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "temple",
+            1,
+            0,
+            1,
+            4,
+            1
+          ],
+          "after": [
+            "training",
+            2,
+            0,
+            0,
+            4,
+            1
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "strategy": "cautious",
+    "difficulty": "very_hard",
+    "result": {
+      "win": 1,
+      "turns": 20,
+      "rounds": 5.0,
+      "light_end": 1,
+      "crystals": 4,
+      "shadow_health_end": 0,
+      "boss_phase_turns": 10,
+      "zero_energy_events": 0,
+      "explore_share": 0.2,
+      "fight_share": 0.55,
+      "build_share": 0.25,
+      "train_share": 0.0,
+      "action_counts": {
+        "fight_guardian": 6,
+        "build": 5,
+        "explore": 4,
+        "shield_attack_bonus": 8,
+        "fight_shadow_master": 5
+      },
+      "card_counts": {
+        "shadow_rises": 5,
+        "shadow_ambush": 4,
+        "adventure_passage": 1,
+        "shadow_calm": 3,
+        "shadow_grip": 2,
+        "shadow_block": 3,
+        "shadow_fog": 2,
+        "adventure_teamwork": 1,
+        "adventure_rocks": 1,
+        "adventure_energy": 1,
+        "adventure_energy_light_choice": 1
+      },
+      "crystal_turn": {
+        "fire_crystal": 2,
+        "earth_crystal": 8,
+        "water_crystal": 9,
+        "wind_crystal": 11
+      },
+      "crystal_order": [
+        "fire_crystal",
+        "earth_crystal",
+        "water_crystal",
+        "wind_crystal"
+      ],
+      "hero_crystal_fights": {
+        "fire_guardian": 2,
+        "water_guardian": 1,
+        "wind_guardian": 2,
+        "earth_guardian": 1
+      },
+      "hero_boss_fights": {
+        "fire_guardian": 1,
+        "water_guardian": 2,
+        "wind_guardian": 1,
+        "earth_guardian": 1
+      },
+      "hero_energy_lost": {
+        "fire_guardian": 1,
+        "water_guardian": 1,
+        "wind_guardian": 0,
+        "earth_guardian": 0
+      },
+      "hero_shields_used": {
+        "fire_guardian": 3,
+        "water_guardian": 3,
+        "wind_guardian": 4,
+        "earth_guardian": 2
+      },
+      "hero_ability_uses": {
+        "fire_guardian": 3,
+        "wind_guardian": 3,
+        "water_guardian": 1,
+        "earth_guardian": 1
+      },
+      "location_power_uses": {
+        "fire": 1,
+        "wind": 1
+      },
+      "crystal_reward_uses": {
+        "fire_crystal": 1,
+        "earth_crystal": 1,
+        "water_crystal": 1,
+        "wind_crystal": 1
+      },
+      "light_loss_sources": {
+        "shadow_rises": 5,
+        "shadow_master_failure": 1
+      },
+      "log": [
+        {
+          "turn": 1,
+          "hero": "fire_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "training",
+            3,
+            0,
+            6,
+            0,
+            4
+          ],
+          "after": [
+            "fire",
+            2,
+            0,
+            5,
+            0,
+            4
+          ]
+        },
+        {
+          "turn": 2,
+          "hero": "water_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "training",
+            3,
+            0,
+            5,
+            0,
+            4
+          ],
+          "after": [
+            "fire",
+            3,
+            0,
+            5,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 3,
+          "hero": "wind_guardian",
+          "action": "build",
+          "before": [
+            "training",
+            3,
+            0,
+            5,
+            1,
+            4
+          ],
+          "after": [
+            "workshop",
+            3,
+            2,
+            5,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 4,
+          "hero": "earth_guardian",
+          "action": "explore",
+          "before": [
+            "training",
+            3,
+            0,
+            5,
+            1,
+            4
+          ],
+          "after": [
+            "workshop",
+            3,
+            0,
+            5,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 5,
+          "hero": "fire_guardian",
+          "action": "build",
+          "before": [
+            "fire",
+            3,
+            0,
+            5,
+            1,
+            4
+          ],
+          "after": [
+            "workshop",
+            3,
+            0,
+            5,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 6,
+          "hero": "water_guardian",
+          "action": "build",
+          "before": [
+            "fire",
+            3,
+            0,
+            5,
+            1,
+            4
+          ],
+          "after": [
+            "workshop",
+            3,
+            1,
+            5,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 7,
+          "hero": "wind_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "workshop",
+            3,
+            2,
+            5,
+            1,
+            4
+          ],
+          "after": [
+            "wind",
+            3,
+            0,
+            4,
+            1,
+            4
+          ]
+        },
+        {
+          "turn": 8,
+          "hero": "earth_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "workshop",
+            3,
+            1,
+            4,
+            1,
+            4
+          ],
+          "after": [
+            "earth",
+            3,
+            1,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "turn": 9,
+          "hero": "fire_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "workshop",
+            3,
+            1,
+            4,
+            2,
+            4
+          ],
+          "after": [
+            "water",
+            4,
+            0,
+            4,
+            3,
+            4
+          ]
+        },
+        {
+          "turn": 10,
+          "hero": "water_guardian",
+          "action": "explore",
+          "before": [
+            "workshop",
+            4,
+            1,
+            4,
+            3,
+            4
+          ],
+          "after": [
+            "workshop",
+            4,
+            0,
+            4,
+            3,
+            4
+          ]
+        },
+        {
+          "turn": 11,
+          "hero": "wind_guardian",
+          "action": "fight_guardian",
+          "before": [
+            "wind",
+            4,
+            1,
+            4,
+            3,
+            4
+          ],
+          "after": [
+            "wind",
+            4,
+            0,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 12,
+          "hero": "earth_guardian",
+          "action": "explore",
+          "before": [
+            "earth",
+            4,
+            1,
+            4,
+            4,
+            4
+          ],
+          "after": [
+            "earth",
+            4,
+            0,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 13,
+          "hero": "fire_guardian",
+          "action": "build",
+          "before": [
+            "workshop",
+            4,
+            0,
+            4,
+            4,
+            4
+          ],
+          "after": [
+            "workshop",
+            4,
+            1,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "turn": 14,
+          "hero": "water_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "workshop",
+            4,
+            1,
+            4,
+            4,
+            4
+          ],
+          "after": [
+            "temple",
+            4,
+            0,
+            4,
+            4,
+            3
+          ]
+        },
+        {
+          "turn": 15,
+          "hero": "wind_guardian",
+          "action": "explore",
+          "before": [
+            "wind",
+            4,
+            0,
+            4,
+            4,
+            3
+          ],
+          "after": [
+            "wind",
+            4,
+            0,
+            4,
+            4,
+            3
+          ]
+        },
+        {
+          "turn": 16,
+          "hero": "earth_guardian",
+          "action": "build",
+          "before": [
+            "earth",
+            4,
+            0,
+            4,
+            4,
+            3
+          ],
+          "after": [
+            "workshop",
+            4,
+            0,
+            3,
+            4,
+            3
+          ]
+        },
+        {
+          "turn": 17,
+          "hero": "fire_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "workshop",
+            4,
+            1,
+            3,
+            4,
+            3
+          ],
+          "after": [
+            "temple",
+            4,
+            0,
+            2,
+            4,
+            2
+          ]
+        },
+        {
+          "turn": 18,
+          "hero": "water_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "temple",
+            4,
+            1,
+            2,
+            4,
+            2
+          ],
+          "after": [
+            "temple",
+            3,
+            0,
+            1,
+            4,
+            2
+          ]
+        },
+        {
+          "turn": 19,
+          "hero": "wind_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "wind",
+            4,
+            1,
+            1,
+            4,
+            2
+          ],
+          "after": [
+            "temple",
+            4,
+            0,
+            1,
+            4,
+            1
+          ]
+        },
+        {
+          "turn": 20,
+          "hero": "earth_guardian",
+          "action": "fight_shadow_master",
+          "before": [
+            "workshop",
+            4,
+            0,
+            1,
+            4,
+            1
+          ],
+          "after": [
+            "temple",
+            4,
+            0,
+            1,
+            4,
+            0
+          ]
+        }
+      ]
+    }
+  }
+]

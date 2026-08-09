@@ -1,0 +1,38 @@
+simulation_model:
+  version: '0.41'
+  scope: hypothesis model, not proof of balance
+  state:
+  - round
+  - active_player
+  - light
+  - shadow_master_health
+  - collected_crystals
+  - hero_energy
+  - hero_shields
+  - hero_helper_cards
+  - hero_locations
+  actions:
+  - move
+  - explore
+  - fight
+  - train
+  - build
+  success_probabilities:
+    normal_crystal_fight: 0.5
+    fire_guardian_or_active_fire_location: 0.6667
+    wind_location_with_reroll: 0.75
+    normal_shadow_master_fight: 0.5
+    fire_guardian_shadow_master_fight: 0.6667
+  metrics:
+  - win_rate
+  - average_rounds
+  - average_light_at_end
+  - average_turns_to_each_crystal
+  - action_share_by_type
+  - hero_energy_loss
+  - helper_card_usage
+  - shield_usage
+  - shield_attack_bonus_usage
+  - shadow_master_fight_turns
+  implementation: scripts/simulate_game.py
+  latest_report: docs/designer/SIMULATION_REPORT_v0.41.md

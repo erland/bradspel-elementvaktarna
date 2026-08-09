@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="794" height="1123" viewBox="0 0 794 1123">
+<rect width="794" height="1123" fill="#FFFFFF"/>
+<g transform="translate(40,55)">
+ <rect x="3" y="3" width="220" height="310" rx="16"
+       fill="#FFFDF8" stroke="#55306B" stroke-width="6"/>
+ <rect x="13" y="13" width="200" height="66" rx="12" fill="#55306B"/>
+ <text x="113.0" y="41" text-anchor="middle"
+       font-family="DejaVu Sans Condensed, Arial Narrow, sans-serif"
+       font-size="21" font-weight="700" fill="#FFFFFF">LJUSET FALNAR</text>
+ <text x="113.0" y="64" text-anchor="middle"
+       font-family="DejaVu Sans, Arial, sans-serif"
+       font-size="11" font-weight="700" letter-spacing="1.4"
+       fill="#FFFFFF">LJUS</text>
+ <circle cx="113.0" cy="121" r="32" fill="#E9DFF0" stroke="#55306B" stroke-width="4"/>
+ <image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iOSIgZmlsbD0iIzM0MjQzRiIgc3Ryb2tlPSIjMEUwOTExIiBzdHJva2Utd2lkdGg9IjIiLz48cGF0aCBkPSJNMTUgNGE4IDggMCAxIDAgNSAxM0E5IDkgMCAwIDEgMTUgNFoiIGZpbGw9IiM4MDU1QTAiLz48L3N2Zz4=" x="87.0" y="96" width="50" height="50"/>
+ <rect x="19" y="160" width="188" height="105" rx="12"
+       fill="#E9DFF0" stroke="#55306B" stroke-width="3"/>
+ <text x="113.0" y="217.5" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" fill="#211328">Förlora 1 Ljus.</text>
+ 
+ <text x="113.0" y="300" text-anchor="middle"
+       font-family="DejaVu Sans, Arial, sans-serif"
+       font-size="10" font-weight="700" fill="#211328">SKUGGKORT</text>
+</g>
+<g transform="translate(284,55)">
+ <rect x="3" y="3" width="220" height="310" rx="16"
+       fill="#FFFDF8" stroke="#55306B" stroke-width="6"/>
+ <rect x="13" y="13" width="200" height="66" rx="12" fill="#55306B"/>
+ <text x="113.0" y="41" text-anchor="middle"
+       font-family="DejaVu Sans Condensed, Arial Narrow, sans-serif"
+       font-size="21" font-weight="700" fill="#FFFFFF">LJUSET FALNAR</text>
+ <text x="113.0" y="64" text-anchor="middle"
+       font-family="DejaVu Sans, Arial, sans-serif"
+       font-size="11" font-weight="700" letter-spacing="1.4"
+       fill="#FFFFFF">LJUS</text>
+ <circle cx="113.0" cy="121" r="32" fill="#E9DFF0" stroke="#55306B" stroke-width="4"/>
+ <image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iOSIgZmlsbD0iIzM0MjQzRiIgc3Ryb2tlPSIjMEUwOTExIiBzdHJva2Utd2lkdGg9IjIiLz48cGF0aCBkPSJNMTUgNGE4IDggMCAxIDAgNSAxM0E5IDkgMCAwIDEgMTUgNFoiIGZpbGw9IiM4MDU1QTAiLz48L3N2Zz4=" x="87.0" y="96" width="50" height="50"/>
+ <rect x="19" y="160" width="188" height="105" rx="12"
+       fill="#E9DFF0" stroke="#55306B" stroke-width="3"/>
+ <text x="113.0" y="217.5" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" fill="#211328">Förlora 1 Ljus.</text>
+ 
+ <text x="113.0" y="300" text-anchor="middle"
+       font-family="DejaVu Sans, Arial, sans-serif"
+       font-size="10" font-weight="700" fill="#211328">SKUGGKORT</text>
+</g>
+<g transform="translate(528,55)">
+ <rect x="3" y="3" width="220" height="310" rx="16"
+       fill="#FFFDF8" stroke="#55306B" stroke-width="6"/>
+ <rect x="13" y="13" width="200" height="66" rx="12" fill="#55306B"/>
+ <text x="113.0" y="41" text-anchor="middle"
+       font-family="DejaVu Sans Condensed, Arial Narrow, sans-serif"
+       font-size="21" font-weight="700" fill="#FFFFFF">BAKHÅLL</text>
+ <text x="113.0" y="64" text-anchor="middle"
+       font-family="DejaVu Sans, Arial, sans-serif"
+       font-size="11" font-weight="700" letter-spacing="1.4"
+       fill="#FFFFFF">FIENDE</text>
+ <circle cx="113.0" cy="121" r="32" fill="#E9DFF0" stroke="#55306B" stroke-width="4"/>
+ <image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTQgMjBjMC03IDItMTUgOC0xNyA2IDIgOCAxMCA4IDE3WiIgZmlsbD0iIzU2MzA2QiIgc3Ryb2tlPSIjMjExMzI4IiBzdHJva2Utd2lkdGg9IjIiLz48Y2lyY2xlIGN4PSI5IiBjeT0iMTEiIHI9IjEuNSIgZmlsbD0iI2ZmZiIvPjxjaXJjbGUgY3g9IjE1IiBjeT0iMTEiIHI9IjEuNSIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==" x="87.0" y="96" width="50" height="50"/>
+ <rect x="19" y="160" width="188" height="105" rx="12"
+       fill="#E9DFF0" stroke="#55306B" stroke-width="3"/>
+ <text x="113.0" y="190.5" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" fill="#211328">Lös striden direkt. Slå</text>
+<text x="113.0" y="208.5" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" fill="#211328">3+. Vid misslyckande</text>
+<text x="113.0" y="226.5" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" fill="#211328">förlorar du 1 energi.</text>
+<text x="113.0" y="244.5" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" fill="#211328">Skydd får användas.</text>
+ 
+ <text x="113.0" y="300" text-anchor="middle"
+       font-family="DejaVu Sans, Arial, sans-serif"
+       font-size="10" font-weight="700" fill="#211328">SKUGGKORT</text>
+</g>
+<g transform="translate(40,385)">
+ <rect x="3" y="3" width="220" height="310" rx="16"
+       fill="#FFFDF8" stroke="#55306B" stroke-width="6"/>
+ <rect x="13" y="13" width="200" height="66" rx="12" fill="#55306B"/>
+ <text x="113.0" y="41" text-anchor="middle"
+       font-family="DejaVu Sans Condensed, Arial Narrow, sans-serif"
+       font-size="21" font-weight="700" fill="#FFFFFF">BAKHÅLL</text>
+ <text x="113.0" y="64" text-anchor="middle"
+       font-family="DejaVu Sans, Arial, sans-serif"
+       font-size="11" font-weight="700" letter-spacing="1.4"
+       fill="#FFFFFF">FIENDE</text>
+ <circle cx="113.0" cy="121" r="32" fill="#E9DFF0" stroke="#55306B" stroke-width="4"/>
+ <image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTQgMjBjMC03IDItMTUgOC0xNyA2IDIgOCAxMCA4IDE3WiIgZmlsbD0iIzU2MzA2QiIgc3Ryb2tlPSIjMjExMzI4IiBzdHJva2Utd2lkdGg9IjIiLz48Y2lyY2xlIGN4PSI5IiBjeT0iMTEiIHI9IjEuNSIgZmlsbD0iI2ZmZiIvPjxjaXJjbGUgY3g9IjE1IiBjeT0iMTEiIHI9IjEuNSIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==" x="87.0" y="96" width="50" height="50"/>
+ <rect x="19" y="160" width="188" height="105" rx="12"
+       fill="#E9DFF0" stroke="#55306B" stroke-width="3"/>
+ <text x="113.0" y="190.5" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" fill="#211328">Lös striden direkt. Slå</text>
+<text x="113.0" y="208.5" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" fill="#211328">3+. Vid misslyckande</text>
+<text x="113.0" y="226.5" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" fill="#211328">förlorar du 1 energi.</text>
+<text x="113.0" y="244.5" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" fill="#211328">Skydd får användas.</text>
+ 
+ <text x="113.0" y="300" text-anchor="middle"
+       font-family="DejaVu Sans, Arial, sans-serif"
+       font-size="10" font-weight="700" fill="#211328">SKUGGKORT</text>
+</g>
+<g transform="translate(284,385)">
+ <rect x="3" y="3" width="220" height="310" rx="16"
+       fill="#FFFDF8" stroke="#55306B" stroke-width="6"/>
+ <rect x="13" y="13" width="200" height="66" rx="12" fill="#55306B"/>
+ <text x="113.0" y="41" text-anchor="middle"
+       font-family="DejaVu Sans Condensed, Arial Narrow, sans-serif"
+       font-size="21" font-weight="700" fill="#FFFFFF">VÄGEN STÄNGS</text>
+ <text x="113.0" y="64" text-anchor="middle"
+       font-family="DejaVu Sans, Arial, sans-serif"
+       font-size="11" font-weight="700" letter-spacing="1.4"
+       fill="#FFFFFF">HINDER</text>
+ <circle cx="113.0" cy="121" r="32" fill="#E9DFF0" stroke="#55306B" stroke-width="4"/>
+ <image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDIgMjIgMjFIMloiIGZpbGw9IiNGNEEzNDAiIHN0cm9rZT0iIzVDMzUxMCIgc3Ryb2tlLXdpZHRoPSIyIi8+PHBhdGggZD0iTTEyIDh2Nk0xMiAxOGguMDEiIHN0cm9rZT0iIzExMSIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPg==" x="87.0" y="96" width="50" height="50"/>
+ <rect x="19" y="160" width="188" height="105" rx="12"
+       fill="#E9DFF0" stroke="#55306B" stroke-width="3"/>
+ <text x="113.0" y="191.5" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#211328">Lägg kortet framför den</text>
+<text x="113.0" y="208.5" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#211328">aktiva hjälten. Hjälten</text>
+<text x="113.0" y="225.5" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#211328">flyttar inte nästa tur.</text>
+<text x="113.0" y="242.5" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#211328">Kasta kortet efter turen.</text>
+ <text x="113" y="282" text-anchor="middle" font-family="DejaVu Sans" font-size="9" font-weight="700" fill="#55306B">LÄGG FRAMFÖR HJÄLTEN</text>
+ <text x="113.0" y="300" text-anchor="middle"
+       font-family="DejaVu Sans, Arial, sans-serif"
+       font-size="10" font-weight="700" fill="#211328">SKUGGKORT</text>
+</g>
+<g transform="translate(528,385)">
+ <rect x="3" y="3" width="220" height="310" rx="16"
+       fill="#FFFDF8" stroke="#55306B" stroke-width="6"/>
+ <rect x="13" y="13" width="200" height="66" rx="12" fill="#55306B"/>
+ <text x="113.0" y="41" text-anchor="middle"
+       font-family="DejaVu Sans Condensed, Arial Narrow, sans-serif"
+       font-size="21" font-weight="700" fill="#FFFFFF">EN LUGN STUND</text>
+ <text x="113.0" y="64" text-anchor="middle"
+       font-family="DejaVu Sans, Arial, sans-serif"
+       font-size="11" font-weight="700" letter-spacing="1.4"
+       fill="#FFFFFF">LUGN</text>
+ <circle cx="113.0" cy="121" r="32" fill="#E9DFF0" stroke="#55306B" stroke-width="4"/>
+ <image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTMgMTRjMy0zIDYgMyA5IDBzNiAzIDkgME00IDljMy0zIDUgMiA4IDBzNSAyIDggMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNEE4QkI4IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPg==" x="87.0" y="96" width="50" height="50"/>
+ <rect x="19" y="160" width="188" height="105" rx="12"
+       fill="#E9DFF0" stroke="#55306B" stroke-width="3"/>
+ <text x="113.0" y="217.5" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" fill="#211328">Inget händer.</text>
+ 
+ <text x="113.0" y="300" text-anchor="middle"
+       font-family="DejaVu Sans, Arial, sans-serif"
+       font-size="10" font-weight="700" fill="#211328">SKUGGKORT</text>
+</g>
+<g transform="translate(40,715)">
+ <rect x="3" y="3" width="220" height="310" rx="16"
+       fill="#FFFDF8" stroke="#55306B" stroke-width="6"/>
+ <rect x="13" y="13" width="200" height="66" rx="12" fill="#55306B"/>
+ <text x="113.0" y="41" text-anchor="middle"
+       font-family="DejaVu Sans Condensed, Arial Narrow, sans-serif"
+       font-size="21" font-weight="700" fill="#FFFFFF">MÖRK DIMMA</text>
+ <text x="113.0" y="64" text-anchor="middle"
+       font-family="DejaVu Sans, Arial, sans-serif"
+       font-size="11" font-weight="700" letter-spacing="1.4"
+       fill="#FFFFFF">HINDER</text>
+ <circle cx="113.0" cy="121" r="32" fill="#E9DFF0" stroke="#55306B" stroke-width="4"/>
+ <image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDIgMjIgMjFIMloiIGZpbGw9IiNGNEEzNDAiIHN0cm9rZT0iIzVDMzUxMCIgc3Ryb2tlLXdpZHRoPSIyIi8+PHBhdGggZD0iTTEyIDh2Nk0xMiAxOGguMDEiIHN0cm9rZT0iIzExMSIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPg==" x="87.0" y="96" width="50" height="50"/>
+ <rect x="19" y="160" width="188" height="105" rx="12"
+       fill="#E9DFF0" stroke="#55306B" stroke-width="3"/>
+ <text x="113.0" y="191.5" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#211328">Lägg kortet framför den</text>
+<text x="113.0" y="208.5" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#211328">aktiva hjälten. Hjälten</text>
+<text x="113.0" y="225.5" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#211328">får inte flytta nästa tur.</text>
+<text x="113.0" y="242.5" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" fill="#211328">Kasta kortet efter turen.</text>
+ <text x="113" y="282" text-anchor="middle" font-family="DejaVu Sans" font-size="9" font-weight="700" fill="#55306B">LÄGG FRAMFÖR HJÄLTEN</text>
+ <text x="113.0" y="300" text-anchor="middle"
+       font-family="DejaVu Sans, Arial, sans-serif"
+       font-size="10" font-weight="700" fill="#211328">SKUGGKORT</text>
+</g>
+<g transform="translate(284,715)">
+ <rect x="3" y="3" width="220" height="310" rx="16"
+       fill="#FFFDF8" stroke="#55306B" stroke-width="6"/>
+ <rect x="13" y="13" width="200" height="66" rx="12" fill="#55306B"/>
+ <text x="113.0" y="41" text-anchor="middle"
+       font-family="DejaVu Sans Condensed, Arial Narrow, sans-serif"
+       font-size="17" font-weight="700" fill="#FFFFFF">SKUGGORNAS GREPP</text>
+ <text x="113.0" y="64" text-anchor="middle"
+       font-family="DejaVu Sans, Arial, sans-serif"
+       font-size="11" font-weight="700" letter-spacing="1.4"
+       fill="#FFFFFF">FARA</text>
+ <circle cx="113.0" cy="121" r="32" fill="#E9DFF0" stroke="#55306B" stroke-width="4"/>
+ <image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTQgMjBjMC03IDItMTUgOC0xNyA2IDIgOCAxMCA4IDE3WiIgZmlsbD0iIzU2MzA2QiIgc3Ryb2tlPSIjMjExMzI4IiBzdHJva2Utd2lkdGg9IjIiLz48Y2lyY2xlIGN4PSI5IiBjeT0iMTEiIHI9IjEuNSIgZmlsbD0iI2ZmZiIvPjxjaXJjbGUgY3g9IjE1IiBjeT0iMTEiIHI9IjEuNSIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==" x="87.0" y="96" width="50" height="50"/>
+ <rect x="19" y="160" width="188" height="105" rx="12"
+       fill="#E9DFF0" stroke="#55306B" stroke-width="3"/>
+ <text x="113.0" y="199.5" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" fill="#211328">Den aktiva hjälten</text>
+<text x="113.0" y="217.5" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" fill="#211328">förlorar 1 energi.</text>
+<text x="113.0" y="235.5" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" fill="#211328">Skydd får användas.</text>
+ 
+ <text x="113.0" y="300" text-anchor="middle"
+       font-family="DejaVu Sans, Arial, sans-serif"
+       font-size="10" font-weight="700" fill="#211328">SKUGGKORT</text>
+</g>
+</svg>

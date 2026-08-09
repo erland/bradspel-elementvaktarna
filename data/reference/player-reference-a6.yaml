@@ -1,0 +1,74 @@
+reference_card:
+  version: '0.46'
+  id: player-reference-a6-landscape
+  title: Elementväktarna
+  format:
+    size: A6
+    orientation: landscape
+    width_px: 559
+    height_px: 397
+    double_sided: false
+    columns: 2
+    recommended_print: 100 procent / faktisk storlek
+  left_column:
+    heading: ''
+    sections:
+    - heading: 1. FLYTTA
+      lines:
+      - Flytta 0–1 steg längs en väg.
+    - heading: 2. VÄLJ 1 HANDLING
+      items:
+      - label: UTFORSKA
+        text: Dra 1 äventyrskort.
+      - label: KÄMPA
+        text: Mot Kristallväktare eller Skuggmästaren.
+      - label: TRÄNA
+        text: 'På Träningsgården: +2 energi, max 5.'
+      - label: BYGG
+        text: 'I Verkstaden: få och fördela 2 Skydd.'
+      lines: []
+    - heading: 3. SKUGGKORT
+      lines:
+      - Dra och lös 1 skuggkort.
+  right_column:
+    heading: ''
+    sections:
+    - heading: STRIDSSLAG
+      lines:
+      - 'Kristallväktare: 4+ ger kristallen; annars -1 energi.'
+      - 'Skuggmästaren: 4+ tar 1 liv; annars -1 energi och -1 Ljus.'
+      - 'Skuggvakt: 3+ seger; annars -1 energi.'
+    - heading: SKYDD
+      lines:
+      - 'Före strid: spendera 1 Skydd för +1 på slaget.'
+      - 1 Skydd stoppar -1 energi men aldrig Ljusförlust.
+    - heading: KRISTALLBELÖNINGAR
+      lines:
+      - 'Eld: valfri hjälte +1 energi.'
+      - 'Vatten: alla +1 energi.'
+      - 'Vind: valfri hjälte flyttar 1 steg.'
+      - 'Jord: fördela 2 Skydd.'
+    - heading: PLATSKRAFTER
+      lines:
+      - Matchande hjälte aktiverar kraften endast mot Kristallväktaren.
+      - 'Eld: 3+ mot Kristallväktaren.'
+      - 'Vatten: segraren får +1 energi.'
+      - 'Vind: slå om ett misslyckat slag.'
+      - 'Jord: misslyckandet kostar ingen energi.'
+  bottom_section:
+    heading: ''
+    items:
+    - label: 2 spelare
+      text: 2 hjältar var.
+    - label: 3 spelare
+      text: En spelare styr 2.
+    - label: 4 spelare
+      text: En hjälte var.
+    - label: Slut på energi
+      text: Flytta till Träningsgården och få 2 energi.
+    - label: Svårighet
+      text: Normal 8, Svår 7, Mycket svår 6.
+    - label: Kraftkälla
+      text: 1 energi eller återfå 1 Ljus, max startvärdet.
+    - label: Ljuset släcks
+      text: Gruppen förlorar.

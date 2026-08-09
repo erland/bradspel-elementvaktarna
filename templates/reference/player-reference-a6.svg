@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+ width="{{W}}" height="{{H}}" viewBox="0 0 {{W}} {{H}}">
+ <rect width="{{W}}" height="{{H}}" fill="#FFFFFF"/>
+ <rect x="7" y="7" width="{{INNER_W}}" height="{{INNER_H}}" rx="18"
+       fill="#FFFDF7" stroke="#245B46" stroke-width="5"/>
+ <rect x="16" y="16" width="{{HEADER_W}}" height="48" rx="12" fill="#245B46"/>
+ <text x="{{CX}}" y="47" text-anchor="middle"
+       font-family="DejaVu Sans Condensed, sans-serif"
+       font-size="24" font-weight="700" fill="#FFFFFF">{{TITLE}}</text>
+ <line x1="{{DIVIDER_X}}" y1="73" x2="{{DIVIDER_X}}" y2="300"
+       stroke="#C7D8D0" stroke-width="2"/>
+ {{LEFT_CONTENT}}
+ {{RIGHT_CONTENT}}
+ {{BOTTOM_SECTION}}
+</svg>

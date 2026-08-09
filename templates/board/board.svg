@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="{{WIDTH}}" height="{{HEIGHT}}"
+     viewBox="0 0 {{WIDTH}} {{HEIGHT}}">
+  <rect x="0" y="0" width="{{WIDTH}}" height="{{HEIGHT}}" fill="#FFFFFF"/>
+  <image x="{{BACKGROUND_X}}" y="{{BACKGROUND_Y}}" width="{{BACKGROUND_WIDTH}}" height="{{BACKGROUND_HEIGHT}}"
+         preserveAspectRatio="none" href="{{BACKGROUND_DATA}}"/>
+  {{PATHS}}
+  {{NODES}}
+  {{LABELS}}
+  {{ICONS}}
+  {{LIGHT_TRACK_BACKGROUND}}
+  {{LIGHT_TRACK}}
+</svg>

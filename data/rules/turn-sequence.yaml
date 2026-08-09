@@ -1,0 +1,63 @@
+turn_sequence:
+  summary: Flytta valfritt, välj exakt en tillåten handling, dra sedan ett skuggkort.
+  steps:
+  - id: move
+    order: 1
+    required: false
+    rule: Flytta till en angränsande plats. Vindväktaren får flytta upp till 2 steg.
+  - id: choose_action
+    order: 2
+    required: true
+    choose_exactly_one:
+    - explore
+    - fight
+    - train
+    - build
+  - id: shadow
+    order: 3
+    required: true
+    rule: Dra och lös ett skuggkort.
+  - id: end
+    order: 4
+    required: true
+    rule: Kontrollera vinst och förlust.
+  actions:
+    explore:
+      name: Utforska
+      effect: Dra och lös ett äventyrskort.
+      allowed_location_types:
+      - element
+      - support
+      not_allowed_at:
+      - training
+      - temple
+    fight:
+      name: Kämpa
+      allowed_when:
+      - current_location_has_unclaimed_crystal
+      - current_location_is_temple_and_all_crystals_collected
+      crystal_guardian:
+        success_roll_min: 4
+        failure_energy_loss: 1
+      boss:
+        success_roll_min: 4
+        success_damage: 1
+        failure_energy_loss: 1
+    train:
+      name: Träna
+      allowed_only_at:
+      - training
+      effect: Få 2 energi, upp till max 5.
+    build:
+      name: Bygg
+      allowed_only_at:
+      - workshop
+      effect: Få 2 Skydd och fördela dem mellan hjältar på platsen. Jordväktaren får fördela dem mellan valfria
+        hjältar.
+      shield_limit_per_hero: 2
+  card_enemies:
+    rule: Fiender från kort löses direkt och ligger inte kvar på kartan.
+    uses_action: false
+  zero_energy:
+    rule: När en hjälte får slut på energi flyttas den omedelbart till Träningsgården och får 2 energi.
+    permanent_elimination: false

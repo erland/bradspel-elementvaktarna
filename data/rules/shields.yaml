@@ -1,0 +1,30 @@
+shields:
+  token_name: Skydd
+  maximum_per_hero: 2
+  gain:
+    build_action: 2
+    earth_guardian_build_action: 2
+    build_distribution: heroes_at_location
+    earth_guardian_distribution: any_heroes
+    build_text: Fördela 2 Skydd mellan hjältar på din plats.
+    earth_guardian_text: Fördela 2 Skydd mellan valfria hjältar, oavsett plats.
+  use:
+    timing: when_hero_would_lose_exactly_1_energy
+    effect: discard_1_shield_to_ignore_energy_loss
+    optional: true
+  can_block:
+  - failed_crystal_guardian_fight
+  - failed_boss_fight
+  - shadow_guard_damage
+  - hazard_card_damage
+  cannot_block:
+  - darkness_increase
+  - blocked_path
+  - movement_restriction
+  - effects_without_energy_loss
+  combat_use:
+    timing: before_combat_roll
+    cost: discard_1_shield
+    effect: gain_plus_1_on_that_roll
+    optional: true
+    maximum_per_roll: 1

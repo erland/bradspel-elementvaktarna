@@ -1,0 +1,129 @@
+deck:
+  id: adventure
+  name: Äventyrskort
+  version: '0.46'
+  theme:
+    primary: '#2F7D5C'
+    secondary: '#DDF3E8'
+    text: '#10251C'
+  cards:
+  - id: adventure_element_power
+    title: Elementkraft
+    type: kraft
+    icon: energy
+    count: 1
+    text: Få 1 energi. Flytta sedan 1 steg, om du vill.
+    keep: false
+    simulation:
+      category: energy_and_movement
+      energy_gain: 1
+      movement: 1
+    flavor: Kristallens kraft svarar på ditt mod.
+  - id: adventure_weak_point
+    title: Svag punkt
+    type: strid
+    icon: danger
+    count: 1
+    text: 'Om en Kristallväktare finns på din plats: gör genast ett Kämpa-slag med +1. Annars får du 1 energi.'
+    keep: false
+    simulation:
+      category: immediate_guardian_attack_or_energy
+      fight_bonus: 1
+      fallback_energy_gain: 1
+    flavor: Du ser en öppning i väktarens försvar.
+  - id: adventure_teamwork
+    title: Modigt samarbete
+    type: samarbete
+    icon: help
+    count: 1
+    text: Flytta en valfri hjälte 1 steg. Om hjälten står på din plats får den också 1 energi.
+    keep: false
+    simulation:
+      category: team_movement
+      movement: 1
+      same_location_energy_gain: 1
+    flavor: Tillsammans vågar ni mer.
+  - id: adventure_old_map
+    title: Reservdelar
+    type: skydd
+    icon: help
+    count: 1
+    text: Få 1 Skydd. Om du står i Verkstaden får du 2 Skydd att fördela mellan hjältar på platsen.
+    keep: false
+    simulation:
+      category: shield_gain
+      shield_gain: 1
+      workshop_shield_gain: 2
+    flavor: En användbar del kan bli precis det skydd du behöver.
+  - id: adventure_shadow_guard
+    title: Skuggvakt
+    type: fiende
+    icon: shadow
+    count: 2
+    text: Lös striden direkt. Slå 3+. Vid misslyckande förlorar du 1 energi. Skydd får användas.
+    keep: false
+    simulation:
+      category: risk
+      energy_risk: 1
+    flavor: Ett mörkt väsen spärrar vägen.
+  - id: adventure_energy
+    title: Kraftkälla
+    type: energi
+    icon: energy
+    count: 2
+    text: 'Välj: få 1 energi eller återfå 1 Ljus, upp till startvärdet.'
+    keep: false
+    simulation:
+      category: energy_or_light
+      energy_gain: 1
+      light_gain: 1
+      light_cap: starting_light
+    flavor: En varm glöd fyller dig med ny kraft.
+  - id: adventure_passage
+    title: Hemlig passage
+    type: hjälp
+    icon: passage
+    count: 1
+    text: Efter kortet får du flytta 1 steg direkt.
+    keep: false
+    simulation:
+      category: movement
+      expected_value: 1.0
+    flavor: Bakom stenarna finns en genväg.
+  - id: adventure_help
+    title: Hjälpande hand
+    type: hjälp
+    icon: help
+    count: 1
+    text: En hjälte på din plats får 1 energi. Är du ensam får du energin.
+    keep: false
+    simulation:
+      category: energy_gain
+      expected_value: 1.0
+    flavor: Ingen väktare behöver klara allt ensam.
+  - id: adventure_rocks
+    title: Rasande stenar
+    type: fara
+    icon: danger
+    count: 1
+    text: Slå 4+. Vid misslyckande förlorar du 1 energi. Skydd får användas.
+    keep: false
+    simulation:
+      category: risk
+      energy_risk: 1
+    flavor: Marken skakar och stenarna faller.
+  - id: adventure_whisper
+    title: Mörk viskning
+    type: fara
+    icon: light
+    count: 1
+    text: Förlora 1 Ljus.
+    keep: false
+    simulation:
+      category: light_loss
+      light_loss: 1
+    flavor: En kall röst hörs från Skuggtemplet.
+  design_intent:
+    purpose: Utforska ger omedelbara effekter utan kort som sparas.
+    helper_card_limit: 0
+    total_cards: 12

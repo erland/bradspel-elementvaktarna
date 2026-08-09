@@ -1,0 +1,90 @@
+locations:
+- id: training
+  name: Träningsgården
+  type: start
+  available_actions:
+  - train
+  action:
+    id: train
+    text: 'Träna: få 2 energi, upp till max 5.'
+  design_role: recovery
+- id: fire
+  name: Eldbron
+  type: element
+  element: fire
+  crystal_id: fire_crystal
+  guardian_strength: 4
+  available_actions:
+  - explore
+  - fight
+  element_hero: fire_guardian
+  location_power:
+    name: Eldens kraft
+    activation: fire_guardian_present
+    effect: Den hjälte som Kämpa här lyckas på 3+ i stället för 4+.
+  design_role: offense
+- id: water
+  name: Vattengrottan
+  type: element
+  element: water
+  crystal_id: water_crystal
+  guardian_strength: 4
+  available_actions:
+  - explore
+  - fight
+  element_hero: water_guardian
+  location_power:
+    name: Vattnets kraft
+    activation: water_guardian_present
+    effect: När en hjälte besegrar Kristallväktaren här får den hjälten 1 energi.
+  design_role: recovery_reward
+- id: wind
+  name: Vindtoppen
+  type: element
+  element: wind
+  crystal_id: wind_crystal
+  guardian_strength: 4
+  available_actions:
+  - explore
+  - fight
+  element_hero: wind_guardian
+  location_power:
+    name: Vindens kraft
+    activation: wind_guardian_present
+    effect: Den hjälte som Kämpa här får slå om ett misslyckat slag en gång direkt.
+  design_role: reliability
+- id: earth
+  name: Jordskogen
+  type: element
+  element: earth
+  crystal_id: earth_crystal
+  guardian_strength: 4
+  available_actions:
+  - explore
+  - fight
+  element_hero: earth_guardian
+  location_power:
+    name: Jordens kraft
+    activation: earth_guardian_present
+    effect: Misslyckade slag mot Kristallväktaren här kostar ingen energi.
+  design_role: safety
+- id: workshop
+  name: Verkstaden
+  type: support
+  available_actions:
+  - explore
+  - build
+  action:
+    id: build
+    text: 'Bygg: få 2 Skydd och fördela dem mellan hjältar på platsen. Jordväktaren får fördela dem mellan valfria
+      hjältar.'
+  design_role: defense_preparation
+- id: temple
+  name: Skuggtemplet
+  type: final
+  available_actions:
+  - fight
+  action:
+    id: shadow_master_fight
+    text: Kämpa mot Skuggmästaren när gruppen har alla fyra kristaller.
+  design_role: final_battle

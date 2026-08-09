@@ -1,0 +1,25 @@
+balance_targets:
+  player_counts:
+  - 2
+  - 3
+  - 4
+  target_win_rate:
+    min: 0.45
+    max: 0.7
+  target_playtime_minutes:
+    min: 20
+    max: 35
+  target_rounds:
+    min: 5
+    max: 8
+  target_shadow_master_turns:
+    min: 2
+    max: 5
+  target_explore_share:
+    min: 0.2
+    max: 0.45
+  red_flags:
+  - fight action above 60 percent
+  - explore action below 15 percent
+  - one hero takes more than half of crystal fights
+  - shadow_master phase longer than crystal phase

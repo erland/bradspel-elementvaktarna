@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="{{CARD_WIDTH}}" height="{{CARD_HEIGHT}}"
+     viewBox="0 0 {{CARD_WIDTH}} {{CARD_HEIGHT}}">
+  <rect x="4" y="4" width="{{OUTER_WIDTH}}" height="{{OUTER_HEIGHT}}"
+        rx="{{CORNER_RADIUS}}" fill="#F8F3E8"
+        stroke="{{COLOR}}" stroke-width="8"/>
+
+  <rect x="18" y="18" width="{{HEADER_WIDTH}}" height="92"
+        rx="18" fill="{{COLOR}}"/>
+
+  <text x="{{CENTER_X}}" y="58" text-anchor="middle"
+        font-family="DejaVu Sans Condensed, Arial Narrow, sans-serif"
+        font-size="32" font-weight="700" letter-spacing="1.2"
+        fill="#FFFFFF">{{NAME}}</text>
+
+  <text x="{{CENTER_X}}" y="87" text-anchor="middle"
+        font-family="DejaVu Sans, Arial, sans-serif"
+        font-size="15" font-weight="700" letter-spacing="2"
+        fill="#FFFFFF">{{ELEMENT}}</text>
+  <defs>
+    <clipPath id="{{CLIP_ID}}">
+      <rect x="{{IMAGE_X}}" y="{{IMAGE_Y}}" width="{{IMAGE_WIDTH}}" height="{{IMAGE_HEIGHT}}" rx="{{IMAGE_RADIUS}}"/>
+    </clipPath>
+  </defs>
+
+  <rect x="{{IMAGE_X}}" y="{{IMAGE_Y}}" width="{{IMAGE_WIDTH}}" height="{{IMAGE_HEIGHT}}"
+        rx="{{IMAGE_RADIUS}}" fill="#E7E1D4" stroke="{{COLOR}}" stroke-width="4"/>
+
+  <image x="{{IMAGE_X}}" y="{{IMAGE_Y}}" width="{{IMAGE_WIDTH}}" height="{{IMAGE_HEIGHT}}"
+         href="{{IMAGE_DATA}}" preserveAspectRatio="{{IMAGE_ASPECT}}"
+         clip-path="url(#{{CLIP_ID}})"/>
+
+  <rect x="{{IMAGE_X}}" y="{{IMAGE_Y}}" width="{{IMAGE_WIDTH}}" height="{{IMAGE_HEIGHT}}"
+        rx="{{IMAGE_RADIUS}}" fill="none" stroke="{{COLOR}}" stroke-width="4"/>
+<text x="42" y="355"
+        font-family="DejaVu Sans, Arial, sans-serif"
+        font-size="18" font-weight="700" letter-spacing=".8"
+        fill="#111111">ENERGI</text>
+
+  {{ENERGY_MARKERS}}
+
+  <rect x="30" y="385" width="{{ABILITY_WIDTH}}" height="138"
+        rx="16" fill="#FFFFFF" stroke="{{COLOR}}" stroke-width="4"/>
+
+  <text x="{{CENTER_X}}" y="416" text-anchor="middle"
+        font-family="DejaVu Sans Condensed, Arial Narrow, sans-serif"
+        font-size="19" font-weight="700" letter-spacing=".8"
+        fill="{{COLOR}}">{{ABILITY_NAME}}</text>
+
+  {{ABILITY_LINES}}
+
+  {{FLAVOR_LINES}}
+</svg>

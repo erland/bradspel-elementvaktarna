@@ -1,0 +1,15 @@
+{
+  "current_release": "v0.57",
+  "release_path": "release/v0.57",
+  "status": "Standard + ink-friendly - Release Candidate 1",
+  "recommended_print": [
+    "print/pdf/adventure-cards-a4.pdf",
+    "print/pdf/board-a4.pdf",
+    "print/pdf/board-a4-ink-friendly.pdf",
+    "print/pdf/crystal-tokens-a4.pdf",
+    "print/pdf/hero-cards-a4.pdf",
+    "print/pdf/player-reference-a6.pdf",
+    "print/pdf/shadow-cards-a4.pdf",
+    "print/pdf/shield-tokens-a4.pdf"
+  ]
+}

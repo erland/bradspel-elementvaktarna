@@ -1,0 +1,33 @@
+player_count_rules:
+  version: '0.46'
+  all_heroes_used: true
+  hero_order:
+  - fire_guardian
+  - water_guardian
+  - wind_guardian
+  - earth_guardian
+  setups:
+    2_players:
+      heroes_per_player:
+      - 2
+      - 2
+      recommendation:
+      - - fire_guardian
+        - water_guardian
+      - - wind_guardian
+        - earth_guardian
+    3_players:
+      heroes_per_player:
+      - 2
+      - 1
+      - 1
+      double_hero_player: chosen_by_group
+    4_players:
+      heroes_per_player:
+      - 1
+      - 1
+      - 1
+      - 1
+  turn_rule: Aktivera en hjälte i fast hjälteordning.
+  shadow_rule: Dra ett skuggkort efter varje hjältes tur.
+  state_rule: Varje hjälte har egen plats, egen energi och egna Skydd.

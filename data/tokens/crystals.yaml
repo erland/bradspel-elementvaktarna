@@ -1,0 +1,16 @@
+crystal_tokens:
+  version: '0.1'
+  diameter_mm: 28
+  items:
+  - id: fire_crystal
+    name: Eld
+    color: '#D94A32'
+  - id: water_crystal
+    name: Vatten
+    color: '#3B86D9'
+  - id: wind_crystal
+    name: Vind
+    color: '#65BFD3'
+  - id: earth_crystal
+    name: Jord
+    color: '#6D9B45'

@@ -1,0 +1,116 @@
+board:
+  version: '0.57'
+  canvas:
+    width: 1123
+    height: 794
+  background: assets/backgrounds/board-background-standard-v0.54.png
+  theme:
+    path_outer: '#111111'
+    path_inner: '#FFF3B0'
+    node_fill: '#F6D77A'
+    node_stroke: '#FFFFFF'
+    label_fill: '#111111'
+    label_text: '#FFFFFF'
+    accent: '#F6D77A'
+  locations:
+  - id: training
+    name: Träningsgården
+    x: 155
+    y: 100
+    icon: start
+    label:
+      position: bottom
+  - id: fire
+    name: Eldbron
+    x: 445
+    y: 135
+    icon: combat
+    label:
+      position: bottom
+  - id: water
+    name: Vattengrottan
+    x: 120
+    y: 300
+    icon: explore
+    label:
+      position: bottom
+  - id: wind
+    name: Vindtoppen
+    x: 650
+    y: 300
+    icon: move
+    label:
+      position: bottom
+  - id: earth
+    name: Jordskogen
+    x: 112
+    y: 456
+    icon: protect
+    label:
+      position: bottom
+  - id: workshop
+    name: Verkstaden
+    x: 377
+    y: 456
+    icon: craft
+    label:
+      position: bottom
+  - id: temple
+    name: Skuggtemplet
+    x: 640
+    y: 500
+    icon: boss
+    label:
+      position: bottom
+  paths:
+  - - training
+    - fire
+  - - training
+    - water
+  - - fire
+    - wind
+  - - fire
+    - workshop
+  - - water
+    - earth
+  - - water
+    - workshop
+  - - wind
+    - workshop
+  - - earth
+    - workshop
+  - - workshop
+    - temple
+  board_area:
+    x: 20
+    y: 35
+    width: 850
+    height: 724
+  light_track:
+    enabled: true
+    overlay_asset: assets/board/light-track/light-track-overlay.svg
+    x: 870
+    y: 42
+    width: 244
+    height: 708
+    number_x: 992
+    number_start_y: 148
+    spacing: 64
+    start: 8
+    label: LJUS
+    end_label: SLÄCKT
+    normal_start: 8
+    hard_start: 7
+    very_hard_start: 6
+    toner_profile: light
+    notes: Pergamentanpassade markörfält; Släckt visas som fristående stenaltare med
+      släckt kristall. Placering +8 px relativt v0.51.
+    end_center_y: 724
+  background_layout:
+    x: 0
+    y: 0
+    width: 1123
+    height: 794
+  backgrounds:
+    standard: assets/backgrounds/board-background-standard-v0.54.png
+    ink_friendly: assets/backgrounds/board-background-inkfriendly-v0.54.png

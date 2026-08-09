@@ -1,0 +1,25 @@
+@page {
+  size: A4;
+  margin: 16mm 16mm 20mm 16mm;
+  @bottom-left {
+    content: "Elementväktarna";
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 8pt;
+    color: #66736d;
+  }
+  @bottom-right {
+    content: "v0.43  |  Sida " counter(page) " av " counter(pages);
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 8pt;
+    color: #66736d;
+  }
+}
+body { font-family: "DejaVu Sans", sans-serif; color:#17211c; font-size:10.5pt; line-height:1.38; }
+h1 { font-family:"DejaVu Sans Condensed", sans-serif; color:#245b46; font-size:26pt; margin-bottom:5mm; border-bottom:3px solid #d8aa42; padding-bottom:3mm; }
+h2 { color:#245b46; font-size:16pt; margin-top:7mm; margin-bottom:2mm; }
+h3 { color:#7b4e25; font-size:12pt; margin-top:4mm; margin-bottom:1.5mm; }
+strong { color:#183e30; }
+ul, ol { margin-top:1.5mm; margin-bottom:3mm; }
+li { margin-bottom:1mm; }
+blockquote { background:#f4efe3; border-left:4px solid #d8aa42; margin:4mm 0; padding:3mm 5mm; }
+code { font-family:monospace; }

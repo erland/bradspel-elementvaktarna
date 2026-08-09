@@ -1,0 +1,18 @@
+shadow_master:
+  id: shadow_master
+  name: Skuggmästaren
+  location: temple
+  shield: 4
+  health: 4
+  required_crystals: 4
+  fight_action:
+    success_roll_min: 4
+    success_damage: 1
+    failure_energy_loss: 1
+    shield_can_prevent_failure_loss: true
+    failure_light_loss: 1
+    shield_cannot_prevent_light_loss: true
+  activation: all_four_crystals_collected
+  defeat_condition: health_reaches_zero
+  dramatic_rule: Vid ett misslyckat anfall mot Skuggmästaren förlorar hjälten 1 energi och gruppen förlorar 1 Ljus.
+    Skydd kan stoppa energiförlusten men inte förlusten av Ljus.

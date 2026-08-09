@@ -1,0 +1,56 @@
+crystals:
+  count: 4
+  visibility: visible
+  placement: fixed_by_element
+  guardians:
+    shared_name: Kristallväktare
+    success_roll_min: 4
+    failure_energy_loss: 1
+    removed_when_crystal_claimed: true
+  items:
+  - id: fire_crystal
+    name: Eldkristallen
+    location: fire
+    color: red
+  - id: water_crystal
+    name: Vattenkristallen
+    location: water
+    color: blue
+  - id: wind_crystal
+    name: Vindkristallen
+    location: wind
+    color: turquoise
+  - id: earth_crystal
+    name: Jordkristallen
+    location: earth
+    color: green
+  collection:
+    action: fight
+    success_effect: collect_crystal_and_defeat_guardian
+    failure_effect: lose_1_energy_unless_shield_or_location_power_prevents_it
+  rewards:
+    fire_crystal:
+      timing: immediate
+      effect: chosen_hero_gain_energy
+      amount: 1
+      text: När Eldkristallen tas får en valfri hjälte 1 energi.
+    water_crystal:
+      timing: immediate
+      effect: all_heroes_gain_energy
+      amount: 1
+      text: När Vattenkristallen tas får alla hjältar 1 energi, upp till max.
+    wind_crystal:
+      timing: immediate
+      effect: chosen_hero_move
+      steps: 1
+      text: När Vindkristallen tas får en valfri hjälte flytta 1 steg direkt.
+    earth_crystal:
+      timing: immediate
+      effect: group_gain_shields
+      amount: 2
+      distribution: freely_distributed
+      text: När Jordkristallen tas får gruppen 2 Skydd att fördela fritt.
+  shadow_master_effect:
+    each_crystal_removes_shield: 1
+    shield_total: 4
+    all_required_to_damage_shadow_master: true

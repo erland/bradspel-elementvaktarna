@@ -1,0 +1,21 @@
+scenario:
+  id: first_adventure
+  name: Det första mörkret
+  difficulty: beginner
+  required_crystals: 4
+  boss_id: shadow_master
+  special_rules:
+  - Kristallerna ligger synligt på sina elementplatser.
+  - En kristall tas genom handlingen Kämpa och ett slag på 4 eller mer.
+  - Elementplatsens kraft gäller när platsens matchande elementhjälte är där.
+  - Ingen hjälte slås ut permanent.
+  - En hjälte som får slut på energi flyttas till Träningsgården och återfår 2 energi.
+  - Gruppen förlorar om Ljuset når Släckt.
+  crystal_setup:
+    fire: fire_crystal
+    water: water_crystal
+    wind: wind_crystal
+    earth: earth_crystal
+  version: '0.46'
+  light_start: 8
+  light_end_state: Släckt

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="205" height="700" viewBox="0 0 205 700">
+  <!-- Pergamentanpassad ljusindikator: smalare fält och diskret ornamentik. -->
+  <defs>
+    <linearGradient id="paperGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff4d6" stop-opacity=".54"/>
+      <stop offset="1" stop-color="#e7c990" stop-opacity=".34"/>
+    </linearGradient>
+    <linearGradient id="shadowPaper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e7d6c7" stop-opacity=".50"/>
+      <stop offset="1" stop-color="#b69aac" stop-opacity=".46"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rubrikornament -->
+  <path d="M55 73 H83 L91 67 L102.5 74 L114 67 L122 73 H150"
+        fill="none" stroke="#705132" stroke-width="1.5" opacity=".76"/>
+  <circle cx="52" cy="73" r="2.2" fill="#705132" opacity=".72"/>
+  <circle cx="153" cy="73" r="2.2" fill="#705132" opacity=".72"/>
+
+  <!-- Åtta smalare markörfält -->
+  <g fill="url(#paperGlow)" stroke="#76583a" stroke-opacity=".78" stroke-width="1.35">
+    <rect x="48.5" y="83" width="108" height="53" rx="7"/>
+    <rect x="48.5" y="147" width="108" height="53" rx="7"/>
+    <rect x="48.5" y="211" width="108" height="53" rx="7"/>
+    <rect x="48.5" y="275" width="108" height="53" rx="7"/>
+    <rect x="48.5" y="339" width="108" height="53" rx="7"/>
+    <rect x="48.5" y="403" width="108" height="53" rx="7"/>
+    <rect x="48.5" y="467" width="108" height="53" rx="7"/>
+    <rect x="48.5" y="531" width="108" height="53" rx="7"/>
+  </g>
+
+  <!-- Tunna innerlinjer ger känsla av präglat pergament utan tunga färgytor. -->
+  <g fill="none" stroke="#b18b58" stroke-opacity=".36" stroke-width=".8">
+    <rect x="52" y="86.5" width="101" height="46" rx="5"/>
+    <rect x="52" y="150.5" width="101" height="46" rx="5"/>
+    <rect x="52" y="214.5" width="101" height="46" rx="5"/>
+    <rect x="52" y="278.5" width="101" height="46" rx="5"/>
+    <rect x="52" y="342.5" width="101" height="46" rx="5"/>
+    <rect x="52" y="406.5" width="101" height="46" rx="5"/>
+    <rect x="52" y="470.5" width="101" height="46" rx="5"/>
+    <rect x="52" y="534.5" width="101" height="46" rx="5"/>
+  </g>
+
+  <!-- Små sidornament mellan nivåerna -->
+  <g fill="#76583a" opacity=".55">
+    <path d="M42 140 l4 4 -4 4 -4-4z"/><path d="M163 140 l4 4 -4 4 -4-4z"/>
+    <path d="M42 268 l4 4 -4 4 -4-4z"/><path d="M163 268 l4 4 -4 4 -4-4z"/>
+    <path d="M42 396 l4 4 -4 4 -4-4z"/><path d="M163 396 l4 4 -4 4 -4-4z"/>
+    <path d="M42 524 l4 4 -4 4 -4-4z"/><path d="M163 524 l4 4 -4 4 -4-4z"/>
+  </g>
+
+  <!-- Släckt: fristående stenaltare, inte en nionde ruta. -->
+  <g id="slackt-altar">
+    <!-- Mjuk skugga under altaret -->
+    <ellipse cx="102.5" cy="661" rx="48" ry="7"
+             fill="#3b2d2b" fill-opacity=".18"/>
+
+    <!-- Låg stensockel -->
+    <path d="M65 645
+             L72 632
+             L84 628
+             L88 619
+             L117 619
+             L121 628
+             L133 632
+             L140 645
+             L133 655
+             L72 655 Z"
+          fill="#7e7167" fill-opacity=".56"
+          stroke="#554944" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M72 645 H133 L128 651 H77 Z"
+          fill="#4f4542" fill-opacity=".38"/>
+    <path d="M80 635 L91 632 M114 632 L126 636 M86 648 L97 645 M109 646 L120 649"
+          fill="none" stroke="#c9b89f" stroke-opacity=".34" stroke-width="1.1"/>
+
+    <!-- Släckt kristall -->
+    <path d="M102.5 590
+             L117 607
+             L111 635
+             L102.5 642
+             L94 635
+             L88 607 Z"
+          fill="#51475e" fill-opacity=".78"
+          stroke="#3d3448" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M102.5 590 L102.5 638 L94 633 L89.5 608 Z"
+          fill="#857791" fill-opacity=".42"/>
+    <path d="M102.5 590 L115.5 608 L110.5 633 L102.5 638 Z"
+          fill="#2f2938" fill-opacity=".54"/>
+    <path d="M95 608 L102.5 614 L110 607 M102.5 614 L98 626 M102.5 614 L108 625"
+          fill="none" stroke="#d9d1df" stroke-opacity=".34" stroke-width="1.1"/>
+
+    <!-- Utslocknad gnista och tunn rök -->
+    <circle cx="102.5" cy="604" r="2.6" fill="#d6c8dc" fill-opacity=".34"/>
+    <path d="M102.5 586
+             C96 578 109 573 102 565
+             C97 559 105 554 102 548"
+          fill="none" stroke="#665b70" stroke-opacity=".34"
+          stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Små sprickor i pergamentet runt altaret -->
+    <path d="M61 650 l-8 7 l-5 0 M144 648 l8 6 l5 -1
+             M77 618 l-7 -7 l-4 1 M128 617 l7 -8 l5 0"
+          fill="none" stroke="#6b5745" stroke-opacity=".34" stroke-width="1.1"/>
+  </g>
+</svg>

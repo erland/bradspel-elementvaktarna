@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="794" height="1123" viewBox="0 0 794 1123">
+<rect width="794" height="1123" fill="#fff"/>
+<text x="397" y="72" text-anchor="middle" font-family="DejaVu Sans Condensed" font-size="30" font-weight="700" fill="#245b46">SKYDDSMARKÖRER</text>
+<path d="M220,148 L288,180 L274,264 Q220,318 166,264 L152,180 Z" fill="#D9B84C" stroke="#17211c" stroke-width="6"/>
+<path d="M220,168 V280 M175,195 Q220,225 265,195" fill="none" stroke="#fff" stroke-width="5" opacity=".8"/>
+<text x="220" y="238" text-anchor="middle" font-family="DejaVu Sans" font-size="18" font-weight="700" fill="#17211c">SKYDD</text>
+<path d="M570,148 L638,180 L624,264 Q570,318 516,264 L502,180 Z" fill="#D9B84C" stroke="#17211c" stroke-width="6"/>
+<path d="M570,168 V280 M525,195 Q570,225 615,195" fill="none" stroke="#fff" stroke-width="5" opacity=".8"/>
+<text x="570" y="238" text-anchor="middle" font-family="DejaVu Sans" font-size="18" font-weight="700" fill="#17211c">SKYDD</text>
+<path d="M220,368 L288,400 L274,484 Q220,538 166,484 L152,400 Z" fill="#D9B84C" stroke="#17211c" stroke-width="6"/>
+<path d="M220,388 V500 M175,415 Q220,445 265,415" fill="none" stroke="#fff" stroke-width="5" opacity=".8"/>
+<text x="220" y="458" text-anchor="middle" font-family="DejaVu Sans" font-size="18" font-weight="700" fill="#17211c">SKYDD</text>
+<path d="M570,368 L638,400 L624,484 Q570,538 516,484 L502,400 Z" fill="#D9B84C" stroke="#17211c" stroke-width="6"/>
+<path d="M570,388 V500 M525,415 Q570,445 615,415" fill="none" stroke="#fff" stroke-width="5" opacity=".8"/>
+<text x="570" y="458" text-anchor="middle" font-family="DejaVu Sans" font-size="18" font-weight="700" fill="#17211c">SKYDD</text>
+<path d="M220,588 L288,620 L274,704 Q220,758 166,704 L152,620 Z" fill="#D9B84C" stroke="#17211c" stroke-width="6"/>
+<path d="M220,608 V720 M175,635 Q220,665 265,635" fill="none" stroke="#fff" stroke-width="5" opacity=".8"/>
+<text x="220" y="678" text-anchor="middle" font-family="DejaVu Sans" font-size="18" font-weight="700" fill="#17211c">SKYDD</text>
+<path d="M570,588 L638,620 L624,704 Q570,758 516,704 L502,620 Z" fill="#D9B84C" stroke="#17211c" stroke-width="6"/>
+<path d="M570,608 V720 M525,635 Q570,665 615,635" fill="none" stroke="#fff" stroke-width="5" opacity=".8"/>
+<text x="570" y="678" text-anchor="middle" font-family="DejaVu Sans" font-size="18" font-weight="700" fill="#17211c">SKYDD</text>
+<path d="M220,808 L288,840 L274,924 Q220,978 166,924 L152,840 Z" fill="#D9B84C" stroke="#17211c" stroke-width="6"/>
+<path d="M220,828 V940 M175,855 Q220,885 265,855" fill="none" stroke="#fff" stroke-width="5" opacity=".8"/>
+<text x="220" y="898" text-anchor="middle" font-family="DejaVu Sans" font-size="18" font-weight="700" fill="#17211c">SKYDD</text>
+<path d="M570,808 L638,840 L624,924 Q570,978 516,924 L502,840 Z" fill="#D9B84C" stroke="#17211c" stroke-width="6"/>
+<path d="M570,828 V940 M525,855 Q570,885 615,855" fill="none" stroke="#fff" stroke-width="5" opacity=".8"/>
+<text x="570" y="898" text-anchor="middle" font-family="DejaVu Sans" font-size="18" font-weight="700" fill="#17211c">SKYDD</text>
+</svg>

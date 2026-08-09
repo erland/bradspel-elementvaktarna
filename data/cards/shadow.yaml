@@ -1,0 +1,77 @@
+deck:
+  id: shadow
+  name: Skuggkort
+  version: '0.46'
+  theme:
+    primary: '#55306B'
+    secondary: '#E9DFF0'
+    text: '#211328'
+  cards:
+  - id: shadow_rises
+    title: Ljuset falnar
+    type: ljus
+    icon: light
+    count: 2
+    text: Förlora 1 Ljus.
+    persistent: false
+    simulation:
+      category: light_loss
+      light_loss: 1
+    flavor: Skuggorna blir längre.
+  - id: shadow_ambush
+    title: Bakhåll
+    type: fiende
+    icon: shadow
+    count: 2
+    text: Lös striden direkt. Slå 3+. Vid misslyckande förlorar du 1 energi. Skydd får användas.
+    simulation:
+      category: risk
+      energy_risk: 1
+    flavor: Skuggvarelsen anfaller utan förvarning.
+    persistent: false
+  - id: shadow_block
+    title: Vägen stängs
+    type: hinder
+    icon: danger
+    count: 1
+    text: Lägg kortet framför den aktiva hjälten. Hjälten flyttar inte nästa tur. Kasta kortet efter turen.
+    persistent: true
+    simulation:
+      category: movement_delay
+      turns: 1
+    flavor: Mörka rötter slingrar sig över vägen.
+  - id: shadow_calm
+    title: En lugn stund
+    type: lugn
+    icon: calm
+    count: 1
+    text: Inget händer.
+    persistent: false
+    simulation:
+      category: neutral
+    flavor: För ett ögonblick håller mörkret andan.
+  - id: shadow_fog
+    title: Mörk dimma
+    type: hinder
+    icon: danger
+    count: 1
+    text: Lägg kortet framför den aktiva hjälten. Hjälten får inte flytta nästa tur. Kasta kortet efter turen.
+    persistent: true
+    simulation:
+      category: movement_delay
+      turns: 1
+    flavor: Dimman gör vägen svår att se.
+  - id: shadow_grip
+    title: Skuggornas grepp
+    type: fara
+    icon: shadow
+    count: 1
+    text: Den aktiva hjälten förlorar 1 energi. Skydd får användas.
+    persistent: false
+    simulation:
+      category: risk
+      energy_risk: 1
+    flavor: Kalla skuggor griper tag i hjälten.
+  design_intent:
+    purpose: Skuggkort ska skapa tidspress med så få minnesregler som möjligt.
+    total_cards: 8

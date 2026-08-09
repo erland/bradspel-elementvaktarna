@@ -1,0 +1,79 @@
+heroes:
+  version: '0.23'
+  card:
+    width: 420
+    height: 594
+    corner_radius: 24
+    safe_margin: 28
+  items:
+  - id: fire_guardian
+    name: Eldväktaren
+    element: Eld
+    color: '#D94A32'
+    icon: 🔥
+    energy: 3
+    ability_name: Eldens styrka
+    ability: När du Kämpa behöver du bara slå 3 eller mer.
+    flavor: Modig, snabb och alltid först in i striden.
+    image: assets/heroes/fire_guardian_wide.png
+    image_fit: cover
+    image_focus:
+      x: 0.5
+      y: 0.42
+    image_offset_y: 0
+    image_scale: 1.0
+  - id: water_guardian
+    name: Vattenväktaren
+    element: Vatten
+    color: '#3B86D9'
+    icon: 💧
+    energy: 3
+    ability_name: Klok utforskare
+    ability: När du Utforskar drar du 2 äventyrskort och väljer 1.
+    flavor: Tänker efter före och hittar lösningar där andra ser hinder.
+    image: assets/heroes/water_guardian_wide.png
+    image_fit: cover
+    image_focus:
+      x: 0.5
+      y: 0.42
+    image_offset_y: 0
+    image_scale: 1.0
+  - id: wind_guardian
+    name: Vindväktaren
+    element: Vind
+    color: '#65BFD3'
+    icon: 🌪
+    energy: 3
+    ability_name: Snabb som vinden
+    ability: När du flyttar får du flytta upp till 2 steg.
+    flavor: Rör sig snabbt och hjälper laget att hinna fram i tid.
+    image: assets/heroes/wind_guardian_wide.png
+    image_fit: cover
+    image_focus:
+      x: 0.5
+      y: 0.42
+    image_offset_y: 0
+    image_scale: 1.0
+  - id: earth_guardian
+    name: Jordväktaren
+    element: Jord
+    color: '#6D9B45'
+    icon: 🛡
+    energy: 3
+    ability_name: Trygg byggmästare
+    ability: När du Bygg får du fördela de 2 Skydden mellan valfria hjältar, oavsett plats.
+    flavor: Stark, trygg och svår att rubba.
+    image: assets/heroes/earth_guardian_wide.png
+    image_fit: cover
+    image_focus:
+      x: 0.5
+      y: 0.42
+    image_offset_y: 0
+    image_scale: 1.0
+  image_frame:
+    x: 48
+    y: 142
+    width: 324
+    height: 166
+    corner_radius: 16
+    preserve_aspect_ratio: xMidYMid slice
