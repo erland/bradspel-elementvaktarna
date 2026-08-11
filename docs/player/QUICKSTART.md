@@ -1,7 +1,5 @@
 # Snabbstart - Elementväktarna
 
-**Version 0.45**
-
 ## Mål
 
 Samla fyra kristaller och besegra Skuggmästaren innan Ljuset slocknar.

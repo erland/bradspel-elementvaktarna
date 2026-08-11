@@ -1,7 +1,6 @@
 deck:
   id: adventure
   name: Äventyrskort
-  version: '0.46'
   theme:
     primary: '#2F7D5C'
     secondary: '#DDF3E8'

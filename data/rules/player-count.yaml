@@ -1,5 +1,4 @@
 player_count_rules:
-  version: '0.46'
   all_heroes_used: true
   hero_order:
   - fire_guardian

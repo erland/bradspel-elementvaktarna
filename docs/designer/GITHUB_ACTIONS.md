@@ -45,8 +45,8 @@ Fil: `.github/workflows/03-release.yml`
 Triggas när en tagg som börjar med `v` pushas, exempelvis:
 
 ```bash
-git tag v0.58
-git push origin v0.58
+git tag vX.Y.Z
+git push origin vX.Y.Z
 ```
 
 Workflowen:
@@ -63,7 +63,7 @@ GitHub Actions använder repositoryts automatiska `GITHUB_TOKEN`; inga egna heml
 ```bash
 python scripts/validate_project.py
 python scripts/build.py
-python scripts/package_release.py --version v0.58
+python scripts/package_release.py --version vX.Y.Z
 ```
 
 ## Reproducerbarhet

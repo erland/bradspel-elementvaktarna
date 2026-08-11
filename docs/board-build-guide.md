@@ -5,66 +5,44 @@
 Kör från projektets rot:
 
 ```bash
-python scripts/generate_board.py
+python scripts/build_board_only.py
+```
+
+Hela projektet byggs med:
+
+```bash
+python scripts/build.py
 ```
 
 ## Input
 
-Generatorn läser:
+Spelplansbygget använder:
 
 ```text
-data/board.yaml
-assets/backgrounds/board-background-v0.2.png
+data/board/board.yaml
+assets/backgrounds/board-background-standard.png
+assets/backgrounds/board-background-ink-friendly.png
+assets/board/light-track/light-track-overlay.svg
 assets/icons/*.svg
 ```
 
+`data/board/board.yaml` är sanningskälla för platser, vägar, etiketter och ljusspårets placering.
+
 ## Output
 
-Generatorn skapar:
+Generatorn skapar bland annat:
 
 ```text
-output/board/board-overlay-v0.2.svg
-output/board/board-preview-v0.2.png
+output/svg/board-a4.svg
+output/svg/board-a4-ink-friendly.svg
+output/pdf/board-a4.pdf
+output/pdf/board-a4-ink-friendly.pdf
+output/preview/board-a4.png
+output/preview/board-a4-ink-friendly.png
 ```
 
-## Hur filerna kombineras
+Filer i `output/` är genererade och ska inte versionsspåras.
 
-`board-overlay-v0.2.svg` är transparent och innehåller endast spelinformation.
+## Princip
 
-`board-preview-v0.2.png` byggs så här:
-
-```text
-board-background-v0.2.png
-        +
-board-overlay-v0.2.svg
-        =
-board-preview-v0.2.png
-```
-
-För framtida builds kan overlayn delas upp i flera filer:
-
-```text
-output/board/layers/paths.svg
-output/board/layers/nodes.svg
-output/board/layers/labels.svg
-output/board/layers/icons.svg
-output/board/layers/darkness-track.svg
-```
-
-och sedan sättas ihop till:
-
-```text
-output/board/board-overlay.svg
-```
-
-## Viktig princip
-
-Bakgrundsbilden ska inte behöva genereras om när:
-
-- en plats flyttas
-- en väg ändras
-- en textruta flyttas
-- en ikon byts
-- mörkerspåret ändras
-
-Dessa ändringar ska komma från `data/board.yaml` och overlay-lagren.
+Bakgrundsbilderna innehåller illustration och pergamentyta. Spelmekaniskt innehåll läggs ovanpå från YAML/SVG-lager. Flytta därför platser och ljusindikator via `data/board/board.yaml`, inte genom att redigera färdig PDF eller PNG.

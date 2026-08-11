@@ -1,5 +1,4 @@
 hero_illustrations:
-  version: '0.1'
   shared_style:
     format: wide landscape illustration, 16:9
     resolution: recommended 1600x900 px or larger

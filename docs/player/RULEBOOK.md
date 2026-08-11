@@ -2,8 +2,6 @@
 
 **Ett samarbetsäventyr för 2-4 spelare, 7-9 år, cirka 25 minuter.**
 
-**Version 0.45**
-
 ## 1. Spelets mål
 
 Samla de fyra elementkristallerna och besegra Skuggmästaren innan Ljuset slocknar.

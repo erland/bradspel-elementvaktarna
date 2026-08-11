@@ -1,5 +1,4 @@
-# Hjältar v0.1
-
+# Hjältar
 ## Eldväktaren
 En gång per tur får du slå om ett misslyckat stridsslag.
 

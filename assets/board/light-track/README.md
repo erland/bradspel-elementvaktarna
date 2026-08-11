@@ -1,13 +1,10 @@
 # Ljusspår
 
-## v0.49
+Spelplanens pergamentpanel ligger i de aktiva bakgrundsbilderna:
 
-Spelplanens pergamentpanel är integrerad direkt i A4-masterbakgrunden:
-
-- `assets/backgrounds/board-background-v0.49-a4-parchment.png` – komplett spelplansbakgrund med tom pergamentyta längst till höger.
-- `light-track-overlay.svg` – endast markörfält och exakt geometri.
+- `assets/backgrounds/board-background-standard.png` – standardbakgrund.
+- `assets/backgrounds/board-background-ink-friendly.png` – tonersnål bakgrund.
+- `light-track-overlay.svg` – markörfält och exakt geometri.
 
 Rubrik, nivåer och sluttext genereras från `data/board/board.yaml`.
-PDF, SVG och PNG i `output/` är genererad output.
-
-Den tidigare separata pergamentpanelen ligger kvar som historiskt källspår men används inte av den aktiva byggpipelinen.
+PDF, SVG och PNG i `output/` är genererad output och versionsspåras inte.

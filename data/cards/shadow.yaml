@@ -1,7 +1,6 @@
 deck:
   id: shadow
   name: Skuggkort
-  version: '0.46'
   theme:
     primary: '#55306B'
     secondary: '#E9DFF0'

@@ -1,5 +1,4 @@
-# Kortsystem v0.17
-
+# Kortsystem
 ## Kortlekar
 
 ### Äventyrskort - 12 kort

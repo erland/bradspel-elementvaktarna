@@ -23,7 +23,7 @@ Färdig spelbrädespreview / printfil
 Fil:
 
 ```text
-assets/backgrounds/board-background-v0.2.png
+assets/backgrounds/board-background-standard.png
 ```
 
 Bakgrunden innehåller endast illustration:
@@ -52,7 +52,7 @@ Bakgrunden är alltså dekorativ grafik, inte sanningskälla för spelregler.
 Fil:
 
 ```text
-data/board.yaml
+data/board/board.yaml
 ```
 
 Detta är projektets sanningskälla för själva kartlogiken.
@@ -70,7 +70,7 @@ Här finns bland annat:
 - ljusspår
 - färgtema
 
-När något ska flyttas eller ändras görs ändringen i `data/board.yaml`.
+När något ska flyttas eller ändras görs ändringen i `data/board/board.yaml`.
 
 Exempel:
 
@@ -95,7 +95,7 @@ label:
 
 ## Lager 3: Vägar och platsmarkörer
 
-Genereras från `data/board.yaml`.
+Genereras från `data/board/board.yaml`.
 
 Detta lager innehåller:
 
@@ -107,7 +107,7 @@ Det ska gå att slå av detta lager separat vid felsökning.
 
 ## Lager 4: Etiketter och textrutor
 
-Genereras också från `data/board.yaml`.
+Genereras också från `data/board/board.yaml`.
 
 Detta lager innehåller:
 
@@ -126,7 +126,7 @@ Källor:
 assets/icons/*.svg
 ```
 
-Ikonerna är separata SVG-filer och refereras via namn från `data/board.yaml`.
+Ikonerna är separata SVG-filer och refereras via namn från `data/board/board.yaml`.
 
 Exempel:
 
@@ -167,9 +167,9 @@ Rekommenderad ordning vid rendering:
 
 ## Vad generatorn gör
 
-`scripts/generate_board.py` ska:
+`scripts/build_board_only.py` ska:
 
-1. läsa `data/board.yaml`
+1. läsa `data/board/board.yaml`
 2. kontrollera att plats-id:n är unika
 3. kontrollera att alla vägar refererar till befintliga platser
 4. skapa SVG-lager
@@ -184,9 +184,9 @@ Generatorn ska inte vara sanningskälla för positioner eller texter. Den ska ba
 Redigera normalt:
 
 ```text
-data/board.yaml
+data/board/board.yaml
 assets/icons/*.svg
-assets/backgrounds/board-background-v0.2.png
+assets/backgrounds/board-background-standard.png
 templates/board/
 ```
 
@@ -212,12 +212,13 @@ Filer i `output/` är genererade och kan skrivas över vid nästa build.
 Detta gör att kartan går att ändra utan att manuellt redigera den färdiga SVG-filen.
 
 
-## Hybridbaserat ljusspår i v0.47
+## Hybridbaserat ljusspår
 
 Ljusindikatorn använder nu två lager:
 
 ```text
-assets/board/light-track/light-track-painted-background.png
+assets/backgrounds/board-background-standard.png
+assets/backgrounds/board-background-ink-friendly.png
 assets/board/light-track/light-track-overlay.svg
 ```
 

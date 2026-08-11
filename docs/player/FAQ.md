@@ -1,7 +1,5 @@
 # FAQ
 
-**Version 0.45**
-
 ## Vad är Ljuset?
 
 Ljus visar hur länge elementkristallernas sken håller mörkret tillbaka.

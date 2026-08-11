@@ -1,5 +1,4 @@
 heroes:
-  version: '0.23'
   card:
     width: 420
     height: 594

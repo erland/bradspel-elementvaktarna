@@ -1,3 +1,15 @@
+# Changelog
+
+## v0.60 – Single-source versioning
+
+- Git-taggen är nu primär källa för releaseversionen.
+- Aktiva bakgrundsassets har stabila filnamn utan projektreleaseversion.
+- Aktiv simuleringskonfiguration heter `data/simulation/pass.yaml`.
+- Onödiga `version:`-fält har tagits bort ur aktuella YAML-källor.
+- Hårdkodade projektreleaseversioner har tagits bort från README, projektstatus, spelarhjälp och PDF-sidfot.
+- Historiska versionsnummer behålls i changelog och simuleringsrapporter där de beskriver verklig historik.
+- Valideringen stoppar nya versionsnumrerade aktiva källfilnamn.
+
 # v0.59 – Repo cleanup och generated-artifact policy
 
 - Tog bort `output/`, `release/` och `archive/` från repository-innehållet.
