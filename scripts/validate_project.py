@@ -2,6 +2,7 @@
 from __future__ import annotations
 from pathlib import Path
 import json
+import re
 import subprocess
 import sys
 import yaml
@@ -39,6 +40,35 @@ EXPECTED_PRINT_PDFS = {
 
 
 GENERATED_REPO_PREFIXES = ("output/", "dist/", "release/", "archive/")
+
+PROJECT_VERSION_FILENAME_RE = re.compile(r"(?:^|[-_])v\d+\.\d+(?:\.\d+)?(?:[-_.]|$)", re.IGNORECASE)
+VERSIONED_FILENAME_ALLOW_PREFIXES = (
+    "docs/designer/SIMULATION_REPORT_",
+    "docs/designer/SIMULATION_ASSUMPTIONS_",
+)
+
+def check_project_version_sprawl() -> None:
+    """Keep release versions in Git tags/history, not active source filenames."""
+    offenders = []
+    for path in ROOT.rglob("*"):
+        if not path.is_file():
+            continue
+        rel = path.relative_to(ROOT).as_posix()
+        if rel == "CHANGELOG.md":
+            continue
+        if any(rel.startswith(prefix) for prefix in VERSIONED_FILENAME_ALLOW_PREFIXES):
+            continue
+        if PROJECT_VERSION_FILENAME_RE.search(path.name):
+            offenders.append(rel)
+    if offenders:
+        fail(
+            "Aktiva källfilnamn ska inte bära projektreleaseversion. "
+            "Använd stabila namn och Git-historik/taggar: "
+            + ", ".join(offenders[:20])
+            + (" ..." if len(offenders) > 20 else "")
+        )
+    print("OK: inga onödigt versionsnumrerade aktiva källfilnamn hittades.")
+
 
 def check_generated_artifacts_not_tracked() -> None:
     """Fail in a Git checkout if generated artifact directories are tracked."""
@@ -163,6 +193,7 @@ def run_gameplay_validation() -> None:
 
 def main() -> int:
     check_generated_artifacts_not_tracked()
+    check_project_version_sprawl()
     check_required_files()
     check_yaml_files()
     check_board_references()

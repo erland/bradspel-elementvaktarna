@@ -9,7 +9,6 @@ def load(path):
         return yaml.safe_load(f)
 
 game = load(ROOT/"data/rules/game.yaml")["game"]
-assert game["version"] == "0.46"
 
 locations = load(ROOT/"data/rules/locations.yaml")["locations"]
 ids = [x["id"] for x in locations]
@@ -50,7 +49,6 @@ assert sum(c.get("count", 1) for c in shadow["cards"]) == 8
 assert all(not c.get("keep", False) for c in adventure["cards"])
 
 player_count = load(ROOT/"data/rules/player-count.yaml")["player_count_rules"]
-assert player_count["version"] == "0.46"
 assert player_count["all_heroes_used"] is True
 assert len(player_count["hero_order"]) == 4
 assert "hjälpkort" not in player_count["state_rule"].lower()
@@ -61,7 +59,6 @@ assert scenario["light_end_state"] == "Släckt"
 assert "darkness_start" not in scenario and "darkness_limit" not in scenario
 
 reference = load(ROOT/"data/reference/player-reference-a6.yaml")["reference_card"]
-assert reference["version"] == "0.46"
 ref_text = yaml.safe_dump(reference, allow_unicode=True)
 assert "+2 energi" in ref_text
 assert "2 Skydd" in ref_text
@@ -78,7 +75,7 @@ player_files = [
 ]
 combined = "\n".join(p.read_text(encoding="utf-8") for p in player_files)
 for required in [
-    "Version 0.45", "Träna", "2 energi", "Bygg", "2 Skydd",
+    "Träna", "2 energi", "Bygg", "2 Skydd",
     "Eldbron", "Vattengrottan", "Vindtoppen", "Jordskogen",
     "slut på energi", "Träningsgården", "Skuggmästaren"
 ]:
@@ -87,4 +84,4 @@ for required in [
 for forbidden in ["Mörkerspåret", "Mörkermarkör", "Max 2 Skydd och 2 Äventyrskort"]:
     assert forbidden not in combined, f"Legacy term remains: {forbidden}"
 
-print("Gameplay and terminology validation OK - v0.48")
+print("Gameplay and terminology validation OK")

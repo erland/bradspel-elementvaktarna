@@ -1,5 +1,4 @@
-# Elementväktarna – A6-referens v0.45
-
+# Elementväktarna – A6-referens
 ## Turen
 
 1. **Flytta:** flytta 1 steg. Vindväktaren får flytta upp till 2 steg.

@@ -1,5 +1,4 @@
 crystal_tokens:
-  version: '0.1'
   diameter_mm: 28
   items:
   - id: fire_crystal

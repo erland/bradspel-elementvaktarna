@@ -16,6 +16,5 @@ scenario:
     water: water_crystal
     wind: wind_crystal
     earth: earth_crystal
-  version: '0.46'
   light_start: 8
   light_end_state: Släckt

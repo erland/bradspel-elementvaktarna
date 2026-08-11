@@ -8,7 +8,7 @@
     color: #66736d;
   }
   @bottom-right {
-    content: "v0.43  |  Sida " counter(page) " av " counter(pages);
+    content: "Sida " counter(page) " av " counter(pages);
     font-family: "DejaVu Sans", sans-serif;
     font-size: 8pt;
     color: #66736d;

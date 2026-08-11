@@ -1,9 +1,8 @@
 board:
-  version: '0.57'
   canvas:
     width: 1123
     height: 794
-  background: assets/backgrounds/board-background-standard-v0.54.png
+  background: assets/backgrounds/board-background-standard.png
   theme:
     path_outer: '#111111'
     path_inner: '#FFF3B0'
@@ -104,7 +103,7 @@ board:
     very_hard_start: 6
     toner_profile: light
     notes: Pergamentanpassade markörfält; Släckt visas som fristående stenaltare med
-      släckt kristall. Placering +8 px relativt v0.51.
+      släckt kristall. Placeringen är finjusterad för den aktiva pergamentbakgrunden.
     end_center_y: 724
   background_layout:
     x: 0
@@ -112,5 +111,5 @@ board:
     width: 1123
     height: 794
   backgrounds:
-    standard: assets/backgrounds/board-background-standard-v0.54.png
-    ink_friendly: assets/backgrounds/board-background-inkfriendly-v0.54.png
+    standard: assets/backgrounds/board-background-standard.png
+    ink_friendly: assets/backgrounds/board-background-ink-friendly.png

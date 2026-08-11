@@ -42,7 +42,7 @@ def copy_required(src: Path, dst: Path) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--version", required=True, help="Exempel: v0.58 eller v1.0.0")
+    parser.add_argument("--version", required=True, help="Git-tagg/releaseversion, exempelvis vX.Y.Z")
     parser.add_argument("--output-dir", default="dist")
     args = parser.parse_args()
 

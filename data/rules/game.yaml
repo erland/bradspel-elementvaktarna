@@ -1,6 +1,5 @@
 game:
   id: elementvaktarna
-  version: '0.46'
   players:
     min: 2
     max: 4

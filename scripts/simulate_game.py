@@ -19,7 +19,7 @@ HEROES = load_yaml(ROOT/"data/heroes/heroes.yaml")["heroes"]["items"]
 BOARD = load_yaml(ROOT/"data/board/board.yaml")["board"]
 ADV_DECK = load_yaml(ROOT/"data/cards/adventure.yaml")["deck"]["cards"]
 SHADOW_DECK = load_yaml(ROOT/"data/cards/shadow.yaml")["deck"]["cards"]
-CONFIG = load_yaml(ROOT/"data/simulation/pass-v0.46.yaml")["simulation_pass"]
+CONFIG = load_yaml(ROOT/"data/simulation/pass.yaml")["simulation_pass"]
 
 HERO_IDS = [h["id"] for h in HEROES]
 ELEMENT_LOCATIONS = ["fire", "water", "wind", "earth"]

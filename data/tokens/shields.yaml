@@ -1,5 +1,4 @@
 shield_tokens:
-  version: '0.1'
   count: 8
   maximum_per_hero: 2
   label: SKYDD

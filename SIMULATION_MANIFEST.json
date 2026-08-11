@@ -1,18 +1,19 @@
 {
-  "version": "0.46",
   "simulation": {
     "main_games": 27000,
     "ablation_games": 18000,
     "seed": 36001,
-    "configuration": "data/simulation/pass-v0.46.yaml",
-    "script": "scripts/simulate_game.py",
-    "report": "docs/designer/SIMULATION_REPORT_v0.46.md"
+    "configuration": "data/simulation/pass.yaml",
+    "script": "scripts/simulate_game.py"
   },
   "gameplay_changed": false,
-  "purpose": "Verify that v0.45 consistency harmonization reproduces the established v0.41/v0.42 simulation balance.",
+  "purpose": "Verifiera aktuell spelmodell och jämföra strategiutfall mot tidigare dokumenterade simuleringsresultat.",
   "artifacts": [
     "output/simulation/summary.csv",
     "output/simulation/ablation.csv",
     "output/simulation/sample-games.json"
+  ],
+  "historical_reports": [
+    "docs/designer/SIMULATION_REPORT_v0.41.md"
   ]
 }
