@@ -2,7 +2,7 @@
 
 ## Version
 
-v0.57 – Release Candidate 1
+v0.58 – CI- och releaseautomation
 
 ## Klart
 
@@ -42,7 +42,7 @@ Enkelsidigt A6-referenskort har omstrukturerats och regenererats. Hjälteunika f
 
 ## Release-status
 
-- Aktuell release: `release/v0.49/`
+- Aktuell lokalt paketerad release: `release/v0.57/`
 - Status: extern blindtestversion
 - Tidigare release-mappar är borttagna ur projektzippen.
 
@@ -89,3 +89,12 @@ Spelplanen använder nu en komplett A4-masterbakgrund där pergamentpanelen är 
 
 - Släckt-läget på ljusindikatorn är nu ett fristående stenaltare med en släckt kristall, utan rektangulär rutram.
 - Standard- och ink-friendly-spelplanerna byggs från samma pipeline.
+
+## v0.58 – GitHub Actions
+
+- `.github/` ligger i repositoryts rot på samma nivå som `README.md`.
+- Automatisk snabbvalidering körs vid pull request och push till `main`.
+- Manuell preview-build genererar alla utskrivbara PDF:er som GitHub Actions-artifact.
+- Taggar `v*` bygger projektet från källor, paketerar en ren printrelease och publicerar GitHub Release-assets.
+- Ny `scripts/validate_project.py` kontrollerar projektstruktur, YAML, tillgångar, spelplansreferenser, kortikoner, release-inventering och befintlig gameplayvalidering.
+- Ny `scripts/package_release.py` skapar reproducerbart releasepaket med manifest och SHA-256-checksummor.
