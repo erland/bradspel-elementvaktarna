@@ -1,3 +1,14 @@
+# v0.58 – GitHub Actions och automatiserad publicering
+
+- Lade till `.github/workflows/01-validate.yml` för snabb CI-validering på pull request och push till `main`.
+- Lade till `.github/workflows/02-build-preview.yml` för manuell build av samtliga PDF-filer och gemensamt preview-artifact.
+- Lade till `.github/workflows/03-release.yml` för taggbaserade GitHub Releases på `v*`.
+- Lade till `scripts/validate_project.py` som kontrollerar projektstruktur, YAML, assets, kortikoner, spelplansreferenser, release-inventering och gameplayvalidering.
+- Lade till `scripts/package_release.py` för ren printrelease med manifest och SHA-256-checksummor.
+- Lade till `scripts/verify_print_output.py` som verifierar att samtliga byggda PDF:er finns, går att läsa och innehåller sidor.
+- Lade till `requirements-ci.txt` och låste Pandoc 3.1.11.1 i build-workflows.
+- Ingen spelregel, balans eller grafisk komponent ändrades.
+
 # v0.57 – Justerade platspositioner
 
 - Flyttade Jordskogen cirka 15 mm åt vänster och 15 mm uppåt.

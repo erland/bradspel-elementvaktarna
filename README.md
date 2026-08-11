@@ -1,4 +1,4 @@
-# Elementväktarna v0.57
+# Elementväktarna v0.58
 
 Spelet använder **Ljuset** som nedräkning mot **Släckt**.
 
@@ -35,12 +35,12 @@ Alla Äventyrskort löses direkt och kastas. Inga kort sparas framför hjältarn
 Den rekommenderade speltestreleasen finns i:
 
 ```text
-release/v0.54/
+release/v0.57/
 ```
 
-- `release/v0.54/print/pdf/` innehåller rekommenderade printfiler.
-- `release/v0.54/docs/` innehåller spelarregler.
-- `release/v0.54/playtest/` innehåller instruktion, komponentlista och feedbackformulär.
+- `release/v0.57/print/pdf/` innehåller rekommenderade printfiler.
+- `release/v0.57/docs/` innehåller spelarregler.
+- `release/v0.57/playtest/` innehåller instruktion, komponentlista och feedbackformulär.
 - `output/` är fortsatt arbetsyta för genererade filer och är inte samma sak som en release.
 
 ## Regelkälla
@@ -60,3 +60,21 @@ Markörfälten är smalare och använder varm pergamentton, diskret dubbelram oc
 ## Spelplansvarianter v0.54
 
 Byggpipelinen genererar både `board-a4.pdf` (standard) och `board-a4-ink-friendly.pdf` (tonersnål). Bakgrunderna styrs från `data/board/board.yaml`.
+
+## GitHub Actions
+
+Projektet har tre workflow-filer i `.github/workflows/`:
+
+1. `01-validate.yml` – snabb projekt- och gameplayvalidering vid pull request och push till `main`.
+2. `02-build-preview.yml` – manuell build av alla PDF-filer för förhandsgranskning och uppladdning som ett gemensamt GitHub Actions-artifact.
+3. `03-release.yml` – körs på taggar `v*`, bygger om allt från källor, skapar ett rent printpaket och publicerar både paketet och de viktigaste PDF-filerna som GitHub Release-assets.
+
+Lokalt kan samma steg köras med:
+
+```bash
+python scripts/validate_project.py
+python scripts/build.py
+python scripts/package_release.py --version v0.58
+```
+
+Se `docs/designer/GITHUB_ACTIONS.md` för detaljer.
