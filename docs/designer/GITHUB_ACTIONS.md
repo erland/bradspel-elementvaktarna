@@ -72,4 +72,15 @@ python scripts/package_release.py --version v0.58
 - Pandoc: 3.1.11.1
 - Python-beroenden: `requirements-ci.txt`
 - PDF är rekommenderat utskriftsformat.
-- YAML, Markdown, mallar, assets och script är källor; `output/` och `dist/` är genererade arbetsytor.
+- YAML, Markdown, mallar, assets och script är källor. `output/`, `dist/`, `release/` och `archive/` är genererade/historiska arbetsytor och versionsspåras inte.
+
+## Repository-policy
+
+`output/`, `dist/`, `release/` och `archive/` finns i `.gitignore` och ska inte committas.
+
+- `output/` skapas av buildskripten.
+- `dist/` skapas av releasepaketeringen.
+- `release/` ersätts av GitHub Releases.
+- `archive/` ersätts av Git-historiken för gamla filer.
+
+`01 Validate` kör `scripts/validate_project.py`. I en riktig Git-checkout använder valideraren `git ls-files` och stoppar bygget om någon av dessa kataloger ändå har råkat läggas till i Git-index.

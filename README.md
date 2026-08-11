@@ -1,4 +1,4 @@
-# Elementväktarna v0.58
+# Elementväktarna v0.59
 
 Spelet använder **Ljuset** som nedräkning mot **Släckt**.
 
@@ -32,16 +32,13 @@ Alla Äventyrskort löses direkt och kastas. Inga kort sparas framför hjältarn
 
 ## Release
 
-Den rekommenderade speltestreleasen finns i:
+`output/`, `dist/`, `release/` och `archive/` versionsspåras inte. De är genererade eller historiska arbetsytor och kan återskapas från källorna och Git-historiken.
 
-```text
-release/v0.57/
-```
+- Preview-PDF:er byggs av `.github/workflows/02-build-preview.yml` och publiceras som GitHub Actions-artifact.
+- Taggar `v*` triggar `.github/workflows/03-release.yml`, som bygger om allt från källor och publicerar ett rent printpaket som GitHub Release.
+- `RELEASE_INVENTORY.json` är källkonfigurationen för vilka printfiler som ska ingå.
 
-- `release/v0.57/print/pdf/` innehåller rekommenderade printfiler.
-- `release/v0.57/docs/` innehåller spelarregler.
-- `release/v0.57/playtest/` innehåller instruktion, komponentlista och feedbackformulär.
-- `output/` är fortsatt arbetsyta för genererade filer och är inte samma sak som en release.
+Lokalt kan genererad output skapas med `python scripts/build.py` och releasepaket med `python scripts/package_release.py --version vX.Y.Z`.
 
 ## Regelkälla
 
@@ -60,6 +57,11 @@ Markörfälten är smalare och använder varm pergamentton, diskret dubbelram oc
 ## Spelplansvarianter v0.54
 
 Byggpipelinen genererar både `board-a4.pdf` (standard) och `board-a4-ink-friendly.pdf` (tonersnål). Bakgrunderna styrs från `data/board/board.yaml`.
+
+
+## Repository-policy v0.59
+
+Git ska innehålla källor och bygglogik, inte genererad output. `.gitignore` exkluderar därför `output/`, `dist/`, `release/` och `archive/`. `scripts/validate_project.py` kontrollerar i en Git-checkout att sådana filer inte råkat versionsspåras.
 
 ## GitHub Actions
 
