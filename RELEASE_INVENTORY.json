@@ -1,7 +1,6 @@
 {
-  "current_release": "v0.57",
-  "release_path": "release/v0.57",
-  "status": "Standard + ink-friendly - Release Candidate 1",
+  "release_policy": "github-tagged-release",
+  "status": "GitHub Actions bygger releasepaket från källor vid taggar v*.",
   "recommended_print": [
     "print/pdf/adventure-cards-a4.pdf",
     "print/pdf/board-a4.pdf",
@@ -11,5 +10,16 @@
     "print/pdf/player-reference-a6.pdf",
     "print/pdf/shadow-cards-a4.pdf",
     "print/pdf/shield-tokens-a4.pdf"
+  ],
+  "generated_directories": [
+    "output",
+    "dist",
+    "release",
+    "archive"
+  ],
+  "notes": [
+    "Genererade kataloger versionsspåras inte i Git.",
+    "Preview-PDF:er skapas av GitHub Actions och laddas upp som artifacts.",
+    "Riktiga printreleaser skapas av scripts/package_release.py och publiceras som GitHub Releases."
   ]
 }

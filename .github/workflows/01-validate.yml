@@ -14,6 +14,7 @@ on:
       - "CHANGELOG.md"
       - "RELEASE_INVENTORY.json"
       - "requirements-ci.txt"
+      - ".gitignore"
       - ".github/workflows/**"
   push:
     branches: [main]
@@ -28,6 +29,7 @@ on:
       - "CHANGELOG.md"
       - "RELEASE_INVENTORY.json"
       - "requirements-ci.txt"
+      - ".gitignore"
       - ".github/workflows/**"
   workflow_dispatch:
 

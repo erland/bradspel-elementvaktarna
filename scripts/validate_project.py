@@ -37,6 +37,38 @@ EXPECTED_PRINT_PDFS = {
     "shield-tokens-a4.pdf",
 }
 
+
+GENERATED_REPO_PREFIXES = ("output/", "dist/", "release/", "archive/")
+
+def check_generated_artifacts_not_tracked() -> None:
+    """Fail in a Git checkout if generated artifact directories are tracked."""
+    git_dir = ROOT / ".git"
+    if not git_dir.exists():
+        print("INFO: ingen .git-katalog; hoppar över kontroll av versionsspårade build-artefakter.")
+        return
+    try:
+        result = subprocess.run(
+            ["git", "ls-files"],
+            cwd=ROOT,
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+    except Exception as exc:
+        fail(f"Kan inte kontrollera versionsspårade filer med git: {exc}")
+    tracked = [
+        line.strip()
+        for line in result.stdout.splitlines()
+        if line.strip().startswith(GENERATED_REPO_PREFIXES)
+    ]
+    if tracked:
+        fail(
+            "Genererade filer får inte versionsspåras. Ta bort dem från Git-index: "
+            + ", ".join(tracked[:20])
+            + (" ..." if len(tracked) > 20 else "")
+        )
+    print("OK: inga genererade output/release/dist/archive-filer är versionsspårade.")
+
 def fail(msg: str) -> None:
     print(f"ERROR: {msg}", file=sys.stderr)
     raise SystemExit(2)
@@ -130,6 +162,7 @@ def run_gameplay_validation() -> None:
         fail("Gameplay-/terminologivalideringen misslyckades.")
 
 def main() -> int:
+    check_generated_artifacts_not_tracked()
     check_required_files()
     check_yaml_files()
     check_board_references()

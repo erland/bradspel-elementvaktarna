@@ -1,3 +1,12 @@
+# v0.59 – Repo cleanup och generated-artifact policy
+
+- Tog bort `output/`, `release/` och `archive/` från repository-innehållet.
+- Lade till `.gitignore` för `output/`, `dist/`, `release/`, `archive/` samt vanliga temporära Python-/editorfiler.
+- Uppdaterade `RELEASE_INVENTORY.json` från lokal releasepekare till taggbaserad GitHub Release-policy.
+- Utökade `scripts/validate_project.py` så en Git-checkout misslyckas om genererade filer under `output/`, `dist/`, `release/` eller `archive/` versionsspåras.
+- Uppdaterade README, projektstatus och GitHub Actions-dokumentationen för den nya käll-/artefaktmodellen.
+- Ingen spelregel, balans eller grafik ändrades.
+
 # v0.58 – GitHub Actions och automatiserad publicering
 
 - Lade till `.github/workflows/01-validate.yml` för snabb CI-validering på pull request och push till `main`.

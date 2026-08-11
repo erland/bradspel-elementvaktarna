@@ -2,7 +2,7 @@
 
 ## Version
 
-v0.58 – CI- och releaseautomation
+v0.59 – Repo cleanup och generated-artifact policy
 
 ## Klart
 
@@ -38,14 +38,14 @@ Spelarterminologin använder nu **slut på energi**, **Skuggvakt** och **Skuggm�
 
 ## v0.45 layoutprototyp
 
-Enkelsidigt A6-referenskort har omstrukturerats och regenererats. Hjälteunika förmågor ligger endast på hjältekorten. Referensen förtydligar nu platskrafternas begränsning, Skuggmästarens krav och att Skydd inte stoppar Ljusförlust. Spelregler och balans är oförändrade. A6-layouten är godkänd och publicerad i release/v0.49/. Tidigare release-mappar är borttagna.
+Enkelsidigt A6-referenskort har omstrukturerats och regenererats. Hjälteunika förmågor ligger endast på hjältekorten. Referensen förtydligar nu platskrafternas begränsning, Skuggmästarens krav och att Skydd inte stoppar Ljusförlust. Spelregler och balans är oförändrade. A6-layouten är godkänd. Tidigare lokala release-mappar är borttagna; framtida releaser byggs och publiceras via GitHub Actions.
 
 ## Release-status
 
-- Aktuell lokalt paketerad release: `release/v0.57/`
-- Status: extern blindtestversion
-- Tidigare release-mappar är borttagna ur projektzippen.
-
+- Genererade `output/`, `dist/`, `release/` och `archive/` ligger inte längre i repot.
+- Preview-filer byggs som GitHub Actions-artifacts.
+- Taggade versioner publiceras som GitHub Releases.
+- `RELEASE_INVENTORY.json` är den versionsspårade källan för releaseinnehållet.
 
 ## v0.48
 
@@ -98,3 +98,11 @@ Spelplanen använder nu en komplett A4-masterbakgrund där pergamentpanelen är 
 - Taggar `v*` bygger projektet från källor, paketerar en ren printrelease och publicerar GitHub Release-assets.
 - Ny `scripts/validate_project.py` kontrollerar projektstruktur, YAML, tillgångar, spelplansreferenser, kortikoner, release-inventering och befintlig gameplayvalidering.
 - Ny `scripts/package_release.py` skapar reproducerbart releasepaket med manifest och SHA-256-checksummor.
+
+## v0.59 – Repo cleanup
+
+- Tog bort versionsspårad `output/`, `release/` och `archive/`.
+- Lade till `.gitignore` för genererade build- och releaseartefakter.
+- CI-valideringen stoppar commits som spårar filer under `output/`, `dist/`, `release/` eller `archive/`.
+- GitHub Actions är nu den primära vägen för preview-PDF:er och taggade printreleaser.
+- Källfiler, assets, YAML, Markdown, mallar och scripts ligger kvar i Git.
